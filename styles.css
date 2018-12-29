@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+  font-size: 1em;
+  overflow: hidden;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #555;
+}
+nav {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 5px;
+  background: rgb(200,200,200);
+  position: fixed;
+  width: 100%;
+  transition: .5s;
+  z-index: 3000;
+}
+nav a {
+  width: 5em;
+}
+nav a:hover {
+  color: #fff;
+}
+.smallhead {
+  font-size: 1em;
+  opacity: .95;
+}
+main {
+  position: relative;
+  /* height cannot be auto or 100% or min-height */
+  height: 1000px;
+  /* overflow-y can also be scroll */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+section[id^="page"] {
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+section[id^="page"]:last-child {
+  background: silver;
+  hieght: auto;
+}
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  padding-top: 1.5em;
+}
+h2 {
+  font-size: 1em;
+  margin: 0;
+  padding-top: 0.5em;
+}
+p a:hover {
+  text-decoration: underline;
+}
+
+.panels {
+  display: flex;
+  flex-direction: column;
+}
+.panels section {
+  width: 90%;
+}
+.panels h1 {
+  font-size: 1em;
+  padding-top: 0;
+}
+
+figure {
+  text-align: center;
+}
+
+address {
+  font-style: normal;
+}
+.footermenu a {
+  height: 1.5em;
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  section[id^="page"] {
+    padding: 0 2em;
+  }
+  .panels {
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .panels section {
+    margin: 0.5em;
+    width: 25%;
+  }
+}
