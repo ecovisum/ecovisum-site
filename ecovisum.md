@@ -53,7 +53,7 @@ However, the **volume of data** generated can be **overwhelming** and data manag
 
 # Our solution
 
-![Composite image of software? Or people using it!]()
+![energy use](images-temp/general-energy-use.png)
 
 > If building users change their behaviour, they need a visible indicator of their impact on energy costs to maintain motivation
 
@@ -150,6 +150,8 @@ This is how we achieve and deliver **high quality** at a **low cost**.
 
 ![NUS dashboard image]()
 
+> "NUS SSO quote about dashboard here"—Quote credit
+
 Run alongside the ‘Student Switch-Off’ campaign (SSO), EcoVisum worked with the NUS to offer universities and student residence providers (across the UK and the EU) integration of intra-hall energy-saving competitions as part of their energy-awareness campaigns. These were displayed as an online ‘leaderboard’ with the highest savers at the top.
 
 Overall, there was a measurable and significant difference of 12% in energy saving between organisations using EcoVsum’s ‘Energy Dashboard’ and those who participated in SSO but who opted out of the software.
@@ -159,6 +161,8 @@ From a single online software service, the dashboard is available from mobile, t
 ## Stadt Nürnberg and EDI-Net
 
 ![EDI-Net Nürnberg image]()
+
+> "The smiley faces dashboard is helping us to further develop the [municipal energy management] policy. Because many technical measures have already been implemented, the user becomes more important in the future. And the smiley faces are one very good measure to engage with the users and to informthe building users about energy." —Eva Anlauft, Head of Municipal Energy Management, City of Nuremberg
 
 Under EDI-Net, Nürnberg maintains 34 buildings across four locations, with data displayed at increasing levels of detail on demand, from ‘smiley faces’ to detailed graphs.
 
