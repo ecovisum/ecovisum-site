@@ -18,8 +18,9 @@ Our data analysis service processes your data to output just the technical infor
 
 ## More information:
 
-- [what's the problem?](#the_problem)
-- [what's our contribution?](#our_solution)
+- [what's the problem?](#the-problem)
+- [what's our contribution?](#our-solution)
+- [Case studies](#case-studies)
 
 ---
 
