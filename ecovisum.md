@@ -120,6 +120,8 @@ In one online location you have:
 
 # How we work
 
+![EDI-Net people representing 'us'](images-temp/edi-people.png)
+
 > since 2007 we have developed the ideas that underpin our approach—our product is now mature and robust enough to offer as a service.
 
 The perfect system is effective, fast and cheap. However, in reality two of the three key areas will receive more focus than the other:
@@ -169,3 +171,10 @@ Under EDI-Net, Nürnberg maintains 34 buildings across four locations, with data
 By using our software, Nürnberg has been able to quantify the resulting savings, with a marked difference of XX%, equating to XXXtonnes of CO2 ???
 
 Together with nine other organisations, including the Nottingham NHS, the city is committed to ongoing use of EDI-Net to maintain both awareness of and ease of use in monitoring energy use across a complex array of building and users under their management.
+
+---
+
+## Our partners (footer)
+
+![Partner logos](images-temp/edi-partners.png)
+
