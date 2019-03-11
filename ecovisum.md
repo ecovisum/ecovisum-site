@@ -1,7 +1,20 @@
 # ECOVISUM USPs (landing screen)
 
-* auto-gen TOC:
-{:toc}
+- [ECOVISUM USPs (landing screen)](#ecovisum-usps-landing-screen)
+  - [Tools to minimise the costs of energy and water usage](#tools-to-minimise-the-costs-of-energy-and-water-usage)
+  - [Making sense of energy data](#making-sense-of-energy-data)
+  - [More information:](#more-information)
+- [The problem](#the-problem)
+  - [Effective energy monitoring](#effective-energy-monitoring)
+- [Our solution](#our-solution)
+  - [A new approach to energy management](#a-new-approach-to-energy-management)
+- [Energy management for experts](#energy-management-for-experts)
+- [Energy information for non-technical stakeholders](#energy-information-for-non-technical-stakeholders)
+- [How we work](#how-we-work)
+- [Case studies](#case-studies)
+  - [The National Union of Students and the ‘Energy Dashboard’](#the-national-union-of-students-and-the-energy-dashboard)
+  - [Stadt Nürnberg and EDI-Net](#stadt-n%C3%BCrnberg-and-edi-net)
+  - [Our partners (footer)](#our-partners-footer)
 
 ![Image of generic energy thingy, people and our software]()
 
