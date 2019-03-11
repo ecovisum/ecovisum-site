@@ -1,5 +1,8 @@
 # ECOVISUM USPs (landing screen)
 
+* auto-gen TOC:
+{:toc}
+
 ![Image of generic energy thingy, people and our software]()
 
 ## Tools to minimise the costs of energy and water usage
