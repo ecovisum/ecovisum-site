@@ -147,7 +147,7 @@ In one online location you have:
 
 ## Student Switch Off dashboard
 
-![Image of dashboard]()
+![Image of dashboard](images-temp/nus-dashboard-competition.png)
 
 We built, have successfully maintained and upgraded the energy dashboard for the NUS Student Switch Off campaign since March 2014. See the [case study](#the-nus-energy-dashboard)
 
