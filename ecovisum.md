@@ -149,6 +149,8 @@ In one online location you have:
 
 ![Image of dashboard](images-temp/nus-dashboard-competition.png)
 
+[switchoff.nus.org.uk](https://switchoff.nus.org.uk)
+
 We built, have successfully maintained and upgraded the energy dashboard for the NUS Student Switch Off campaign since March 2014. See the [case study](#the-nus-energy-dashboard)
 
 Your data can be either manually uploaded, or taken directly from your energy data files which can be automatically imported, pushed to our server for processing, or manually uploaded (as Excel or CSV files).
@@ -164,6 +166,8 @@ Once set up, competitions can be created between student residencies.
 ## EDI-Net energy monitoring
 
 ![Image of EDI-Net organisations](images-temp/edi-net.png)
+
+[edi-net.eu](https://www.edi-net.eu/en/)
 
 EDI-Net has been running successfully since 2018, with some authorities saving up to ???% on energy usage.
 
