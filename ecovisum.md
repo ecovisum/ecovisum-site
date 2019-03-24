@@ -171,7 +171,7 @@ Once set up, competitions can be created between student residencies.
 
 EDI-Net has been running successfully since 2018, with some authorities saving up to ???% on energy usage.
 
-Organisations with regular and reliable energy data signed up to the system can offer building users and energy managers an instant glance at energy usage at a level suited to the user. From simple ‘smiley faces’ to detailed graphs, live energy use can be viewed at a glance or monitored in detail. See the [EDI-Net case study](#stadt-nürnberg-and-edi-net).
+Organisations with regular and reliable energy data signed up to the system can offer building users and energy managers instant knowledge of live energy usage at a level suited to the user, from simple ‘smiley faces’ to detailed graphs to be monitored in detail. See the [EDI-Net case study](#stadt-nürnberg-and-edi-net).
 
 ### Costs:
 
