@@ -1,4 +1,4 @@
-- [ECOVISUM USPs (landing screen)](#ecovisum-usps-landing-screen)
+- [ECOVISUM USPs](#ecovisum-usps)
   - [Tools to minimise the costs of energy and water usage](#tools-to-minimise-the-costs-of-energy-and-water-usage)
   - [Making sense of energy data](#making-sense-of-energy-data)
   - [More information:](#more-information)
@@ -20,7 +20,7 @@
   - [Stadt Nürnberg and EDI-Net](#stadt-n%C3%BCrnberg-and-edi-net)
   - [Our partners (footer)](#our-partners-footer)
 
-# ECOVISUM USPs (landing screen)
+# ECOVISUM USPs
 
 ![Image of generic energy thingy, people and our software]()
 

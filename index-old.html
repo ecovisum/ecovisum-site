@@ -5,7 +5,7 @@
   <title>Ecovisum Ltd.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <script src="showdown.min.js"></script>
+</head>
 <body>
   <nav id="header">
     <a href="#page-1">About</a>
@@ -16,7 +16,7 @@
   </nav>
   <main id="main">
     <section id="page-1">
-      <!-- <h1>About</h1>
+      <h1>About</h1>
 
       <h2>MAKING ENERGY DATA USABLE</h2>
 
@@ -31,7 +31,7 @@
 
       <p>We provide a range of services, specializing in engaging people via energy dashboards and creative visualisations. Most recently we have worked with National Union of Students on their Student Switch-off Campaign.</p>
 
-      <p></p> -->
+      <p></p>
     </section>
 
     <section id="page-2">
@@ -155,29 +155,5 @@
   </main>
 
   <script src="scripts.js"></script>
-<script>
-const page1 = document.getElementById('page-1');
-
-const converter = new showdown.Converter();
-
-fetch('./index.md')
-  .then((response) => response.text()
-  .then(convertMd))
-  .catch(e => console.log("Ooops"));
-
-function convertMd(retrievedText) {
-  convertedText = converter.makeHtml(retrievedText);
-  page1.innerHTML = convertedText;
-}
-
-// fetch('./index.md', {credentials: 'same-origin'})
-// const convertmd = (md) => {
-//   const converter = new showdown.Converter(),
-//   text      = '# hello, markdown!',
-//   html      = converter.makeHtml(text);
-//   console.log(html);
-// }
-
-</script>
 </body>
 </html>
