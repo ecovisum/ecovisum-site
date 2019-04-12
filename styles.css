@@ -34,8 +34,7 @@ nav a:hover {
 main {
   position: relative;
   /* height cannot be auto or 100% or min-height */
-  height: 1000px;
-  /* overflow-y can also be scroll */
+  height: 100vh;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
@@ -47,7 +46,7 @@ section[id^="page"] {
 }
 section[id^="page"]:last-child {
   background: silver;
-  hieght: auto;
+  height: auto;
 }
 h1 {
   font-size: 2.5em;
