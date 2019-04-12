@@ -9,10 +9,8 @@ let page;
 const getMarkdown = (filename, mdPage) => {
   fetch(filename, mdPage, { credentials: 'same-origin' })
     .then((response) => {
-      // console.log(mdPage, response);
       response.text().then(function (text) {
-        let mdText = text;
-        convertedText = converter.makeHtml(mdText);
+        convertedText = converter.makeHtml(text);
         mdPage.innerHTML = convertedText;
       })
     })
