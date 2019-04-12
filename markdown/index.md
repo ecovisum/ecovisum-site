@@ -1,4 +1,4 @@
-# ECOVISUM USPs
+# ECOVISUM
 
 ![Image of generic energy thingy, people and our software]()
 
@@ -20,6 +20,6 @@ See our [pricing plans](#pricing-plans)
 
 ## More information:
 
-- [what's the problem?](#the-problem)
-- [what's our solution?](#our-solution)
-- [Case studies](#case-studies)
+- [what's the problem?](#page-2)
+- [what's our solution?](#page-3)
+- [Case studies](#page-4)
