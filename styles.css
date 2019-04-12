@@ -21,6 +21,10 @@ nav {
   transition: .5s;
   z-index: 1000 !important;
 }
+.smallhead {
+  font-size: 1em;
+  opacity: .95;
+}
 nav a,
 nav .dropdown {
   padding: 0 6px;
@@ -40,39 +44,37 @@ nav a:hover {
 }
 .submenu {
   position: absolute;
-  top: -12em;
+  top: -6em;
   background: white;
   width: 6em;
-  display: flex;
-  flex-direction: column;
-  transition: all 1s;
+  transition: top .25s;
   z-index: -5000;
 }
 .submenu a {
   display: block;
-  background: #ccc;
+  background: rgb(200,200,200);
 }
-nav a[href="#page-1"] {
+.submenu a:hover {
+  display: block;
   background: rgb(175,175,175);
 }
-nav a[href="#page-1"]::after {
+.dropdown > a {
+  background: rgb(175,175,175);
+}
+.dropdown > a::after {
   content: "+";
   font-family: monospace;
   font-size: 1.25em;
   padding: 0 4px;
 }
-nav a[href="#page-1"]:hover::after {
+.dropdown > a:hover::after {
   content: "-";
 }
-.dropdown a[href="#page-1"]:hover ~ .submenu,
+.dropdown > a:hover ~ .submenu,
 .submenu:hover {
   top: 2em;
 }
 
-.smallhead {
-  font-size: 1em;
-  opacity: .95;
-}
 
 main {
   position: relative;
@@ -81,16 +83,13 @@ main {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
+
 section[id^="page"] {
   min-height: 100vh;
   max-width: 800px;
   margin: 0 auto;
   padding: 0 1em;
 }
-/* section[id^="page"]:last-child {
-  background: silver;
-  height: auto;
-} */
 section img {
   width: 100%;
 }
