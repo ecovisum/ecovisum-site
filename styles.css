@@ -79,6 +79,17 @@ p a:hover {
   padding-top: 0;
 }
 
+a.top {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: right;
+  line-height: 2.5em;
+  padding: 0 10px;
+  background: #eee;
+}
 /* ====== Contact section ====== */
 /* figure {
   text-align: center;

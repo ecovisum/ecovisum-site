@@ -20,6 +20,6 @@ See our [pricing plans](#pricing-plans)
 
 ## More information:
 
-- [what's the problem?](#page-2)
-- [what's our solution?](#page-3)
-- [Case studies](#page-4)
+- [what's the **problem**?](#page-2)
+- [what's our **solution**?](#page-3)
+- [See the **case studies**](#page-4)
