@@ -1,6 +1,6 @@
 # ECOVISUM
 
-![Image of generic energy thingy, people and our software]()
+![Esther Rolinson's "Splinter"](images/splinter.png)
 
 ## Tools to minimise the costs of energy and water usage
 
@@ -16,10 +16,11 @@ Our data analysis service processes your data to output just the technical infor
 - in-depth graphs to identify anomalies
 - visual reports to share with stakeholders
 
-See our [pricing plans](#pricing-plans)
+---
 
 ## More information:
 
 - [what's the **problem**?](#page-2)
 - [what's our **solution**?](#page-3)
-- [See the **case studies**](#page-4)
+- [See our **clients**](#page-4)
+- See our [**pricing plans**](#page-6)

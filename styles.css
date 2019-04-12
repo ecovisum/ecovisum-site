@@ -5,7 +5,6 @@ body {
   overflow: hidden;
 }
 a {
-  display: inline-block;
   text-decoration: none;
   color: #555;
 }
@@ -14,23 +13,67 @@ nav {
   margin: 0 auto;
   text-align: center;
   font-size: 1.5em;
-  padding: 5px;
+  line-height: 2em;
+  padding: 0 5px;
   background: rgb(200,200,200);
   position: fixed;
   width: 100%;
   transition: .5s;
-  z-index: 3000;
+  z-index: 1000 !important;
 }
-nav a {
-  width: 5em;
+nav a,
+nav .dropdown {
+  padding: 0 6px;
+  box-sizing: border-box;
+  display: inline-block;
 }
 nav a:hover {
-  color: #fff;
+  color: #222;
 }
+
+/* Dropdown menu */
+.dropdown a {
+  width: 6em;
+}
+.dropdown {
+  position: relative;
+}
+.submenu {
+  position: absolute;
+  top: -12em;
+  background: white;
+  width: 6em;
+  display: flex;
+  flex-direction: column;
+  transition: all 1s;
+  z-index: -5000;
+}
+.submenu a {
+  display: block;
+  background: #ccc;
+}
+nav a[href="#page-1"] {
+  background: rgb(175,175,175);
+}
+nav a[href="#page-1"]::after {
+  content: "+";
+  font-family: monospace;
+  font-size: 1.25em;
+  padding: 0 4px;
+}
+nav a[href="#page-1"]:hover::after {
+  content: "-";
+}
+.dropdown a[href="#page-1"]:hover ~ .submenu,
+.submenu:hover {
+  top: 2em;
+}
+
 .smallhead {
   font-size: 1em;
   opacity: .95;
 }
+
 main {
   position: relative;
   /* height cannot be auto or 100% or min-height */

@@ -2,7 +2,7 @@
 
 ## Detailed energy management for experts
 
-![Image of energy manager using software]()
+![Magic squares](images/magic-squares.png)
 
 > Our systems offer rapid monitoring of energy usage (electricity, gas, water) with details that increase at a click
 
