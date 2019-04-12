@@ -107,6 +107,22 @@ h2 {
 p a:hover {
   text-decoration: underline;
 }
+blockquote {
+  background: rgb(230,230,230);
+  margin: 1em 0;
+  padding: .5em 1em .5em 4em;
+  position: relative;
+}
+blockquote::before {
+  content: "“";
+  font-size: 7em;
+  color: rgba(200,200,200,0.6);
+  font-family: times;
+  position: absolute;
+  top: -10px;
+  left: -12px;
+  z-index: 0;
+}
 
 /* ====== Research section ====== */
 .panels {
