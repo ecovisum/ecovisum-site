@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   font-family: Tahoma, sans-serif;
-  font-size: 1.25em;
+  font-size: 1em;
   overflow: hidden;
   background: var(--palerVery);
 }
@@ -186,6 +186,9 @@ a.top {
 } */
 
 @media screen and (min-width: 600px) {
+  body {
+    font-size: 1.25em;
+  }
   nav {
     font-size: 1.5em;
     line-height: 2em;
