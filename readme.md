@@ -5,9 +5,9 @@ See [draft website text](markdown/ecovisum.md)—under review, pending arrangeme
 ## TO DO
 
 - [ ] do mobile menu
-- [ ] make Markdown converter call map through an object with filen paths and destinations
-- [ ] style it as wireframe
 - [ ] make design as a skin
+- [ ] refactor styles as a neutral wireframe
+- [x] map through an object storing the markdown file paths and HTML destinations
 - [x] make Markdown converter generic
 - [x] rewrite content (this is a straight copy)
 - [x] decide on whether we need a contact form (not yet)

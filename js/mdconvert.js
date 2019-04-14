@@ -6,7 +6,7 @@ const getMarkdown = (filename, mdPage) => {
       response.text()
       .then((text) => convertMd(text, mdPage))
     })
-    .catch(e => console.log("Something's wrong…"));
+    .catch(e => console.log(`Something's wrong: ${e}`));
 }
 
 const convertMd = (md, mdPage) => {
@@ -14,25 +14,43 @@ const convertMd = (md, mdPage) => {
   mdPage.innerHTML = convertedText;
 }
 
-const page1 = document.getElementById('page-1');
-const page2 = document.getElementById('page-2');
-const page3 = document.getElementById('page-3');
-const page4 = document.getElementById('page-4');
-const page5 = document.getElementById('page-5');
-const page6 = document.getElementById('page-6');
-const page7 = document.getElementById('page-7');
-const page8 = document.getElementById('page-8');
 
-getMarkdown('./markdown/index.md', page1);
-getMarkdown('./markdown/problem.md', page2);
-getMarkdown('./markdown/solution.md', page3);
-getMarkdown('./markdown/cases.md', page4);
-getMarkdown('./markdown/everyone.md', page5);
-getMarkdown('./markdown/prices.md', page6);
-getMarkdown('./markdown/about.md', page7);
-getMarkdown('./markdown/research.md', page8);
+const pages = [
+  {
+    "page": document.getElementById('page-1'),
+    "mdFile": './markdown/index.md'
+  },
+  {
+    "page": document.getElementById('page-2'),
+    "mdFile": './markdown/problem.md'
+  },
+  {
+    "page": document.getElementById('page-3'),
+    "mdFile": './markdown/solution.md'
+  },
+  {
+    "page": document.getElementById('page-4'),
+    "mdFile": './markdown/cases.md'
+  },
+  {
+    "page": document.getElementById('page-5'),
+    "mdFile": './markdown/everyone.md'
+  },
+  {
+    "page": document.getElementById('page-6'),
+    "mdFile": './markdown/prices.md'
+  },
+  {
+    "page": document.getElementById('page-7'),
+    "mdFile": './markdown/about.md'
+  },
+  {
+    "page": document.getElementById('page-8'),
+    "mdFile": './markdown/research.md'
+  }
+]
 
-
+pages.map(p => getMarkdown(p.mdFile, p.page));
 
 // ========= ORIGINAL EXAMPLE =========
   // fetch(filename, {credentials: 'same-origin', mode: 'no-cors'})
