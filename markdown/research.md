@@ -41,7 +41,7 @@ Ecovisum directors have produced significant previous and current projects on en
   <section>
   <h2>EDI-NET</h2>
 
-  a system that provides a thing that helps councils save money by providing live monitoring of the energy use of all their buildings and notifies them of significant changes
+  This software provides a comprehensive system that helps councils save money by providing live monitoring of the energy use of all their buildings and notifies them of significant changes
 
   </section>
 </div>
