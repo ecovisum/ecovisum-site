@@ -4,7 +4,7 @@
 
 ![Magic squares](images/magic-squares.png)
 
-> Our systems offer rapid monitoring of energy usage (electricity, gas, water) with details that increase at a click
+> Ecovisum’s systems offer easy at-a-glance monitoring of energy usage (electricity, gas, water) with increasing detail as required, at a click
 
 In one online location you have:
 
@@ -20,7 +20,7 @@ In one online location you have:
 
 ![Image of people viewing the dashboard on a big screen and/or mobile]()
 
-> How can it be used for communication?
+> Ecovisum’s energy dashboards can be used for communication… to everyone
 
 - Publishable regularly-updated league tables
 - User-friendly ‘smiley face’ analytics
