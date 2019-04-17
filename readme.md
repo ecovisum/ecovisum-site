@@ -1,12 +1,13 @@
 # Website for Ecovisum
 
-See [draft website text](markdown/ecovisum.md)—under review, pending arrangement into sections/pages.
+A rough content plan for the new Ecovisum website, built as a static single page from Markdown files.
 
 ## TO DO
 
 - [ ] do mobile menu
 - [ ] make design as a skin
 - [ ] refactor styles as a neutral wireframe
+- [ ] concatenate and minify .js files
 - [x] map through an object storing the markdown file paths and HTML destinations
 - [x] make Markdown converter generic
 - [x] rewrite content (this is a straight copy)

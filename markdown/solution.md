@@ -1,6 +1,6 @@
 # Our solution
 
-![energy use](images-temp/general-energy-use.png)
+![energy use](images/general-energy-use.png)
 
 > If building users change their behaviour, they need a visible indicator of their impact on energy costs to maintain motivation
 

@@ -78,7 +78,7 @@ However, the **volume of data** generated can be **overwhelming** and data manag
 
 # Our solution
 
-![energy use](images-temp/general-energy-use.png)
+![energy use](images/general-energy-use.png)
 
 > If building users change their behaviour, they need a visible indicator of their impact on energy costs to maintain motivation
 
@@ -147,7 +147,7 @@ In one online location you have:
 
 ## Student Switch Off dashboard
 
-![Image of dashboard](images-temp/nus-dashboard-competition.png)
+![Image of dashboard](images/nus-dashboard-competition.png)
 
 [switchoff.nus.org.uk](https://switchoff.nus.org.uk)
 
@@ -165,7 +165,7 @@ Once set up, competitions can be created between student residencies.
 
 ## EDI-Net energy monitoring
 
-![Image of EDI-Net organisations](images-temp/edi-net.png)
+![Image of EDI-Net organisations](images/edi-net.png)
 
 [edi-net.eu](https://www.edi-net.eu/en/)
 
@@ -184,7 +184,7 @@ Organisations with regular and reliable energy data signed up to the system can 
 
 # How we work
 
-![EDI-Net people representing 'us'](images-temp/edi-people.png)
+![EDI-Net people representing 'us'](images/edi-people.png)
 
 > since 2007 we have researched developed the ideas that underpin our product, which is now available as a service.
 
@@ -242,5 +242,5 @@ Together with nine other organisations, including the Nottingham NHS, the city i
 
 ## Our partners (footer)
 
-![Partner logos](images-temp/edi-partners.png)
+![Partner logos](images/edi-partners.png)
 

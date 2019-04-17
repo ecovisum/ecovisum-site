@@ -1,12 +1,11 @@
 const main = document.getElementById("main");
+const header = document.getElementById("header");
 
-function scrollFunction() {
-  if (event.srcElement.scrollTop > 100) {
-    // console.log(event.srcElement.scrollTop);
-    document.getElementById("header").classList.add("smallhead");
-  } else {
-    document.getElementById("header").classList.remove("smallhead");
-  }
+const scrollFunction = () => {
+  // console.log(event.srcElement.scrollTop);
+  event.srcElement.scrollTop > 100 ?
+    header.classList.add("smallhead")
+  : header.classList.remove("smallhead")
 }
 
 main.addEventListener("scroll", scrollFunction);

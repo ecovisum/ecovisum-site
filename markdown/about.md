@@ -1,6 +1,6 @@
 # How we work
 
-![EDI-Net people representing 'us'](images-temp/edi-people.png)
+![EDI-Net people representing 'us'](images/edi-people.png)
 
 > since 2007 we have researched developed the ideas that underpin our product, which is now available as a service.
 

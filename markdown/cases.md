@@ -30,4 +30,4 @@ Together with nine other organisations, including the Nottingham NHS, the city i
 
 ## Our partners
 
-![Partner logos](images-temp/edi-partners.png)
+![Partner logos](images/edi-partners.png)

@@ -2,7 +2,7 @@
 
 ## Student Switch Off dashboard
 
-![Image of dashboard](images-temp/nus-dashboard-competition.png)
+![Image of dashboard](images/nus-dashboard-competition.png)
 
 [switchoff.nus.org.uk](https://switchoff.nus.org.uk)
 
@@ -20,7 +20,7 @@ Once set up, competitions can be created between student residencies.
 
 ## EDI-Net energy monitoring
 
-![Image of EDI-Net organisations](images-temp/edi-net.png)
+![Image of EDI-Net organisations](images/edi-net.png)
 
 [edi-net.eu](https://www.edi-net.eu/en/)
 
