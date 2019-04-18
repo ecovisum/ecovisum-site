@@ -19,11 +19,10 @@ leave js/showdown.min.js out
 
 cat js/content.js js/mdconvert.js js/scripts.js > js/scripts.concat.js
 
-uglifyjs doesn't do ES6. Try [Gulp](https://codehangar.io/concatenate-and-minify-javascript-with-gulp/)
+uglifyjs doesn't do ES6. Try one of these:
 
-or
-
-uglifyjs js/content.js js/mdconvert.js js/scripts.js --compress --mangle --output scripts.min.js
+- [Douglas Crockford's JSMin](http://www.crockford.com/javascript/jsmin.html)
+- [Terser](https://github.com/terser-js/terser/blob/master/README.md)
 
 ## References
 
