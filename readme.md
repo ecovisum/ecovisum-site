@@ -7,7 +7,8 @@ A rough content plan and outline for the new [Ecovisum website](https://daveever
 - [ ] do mobile menu
 - [ ] make design as a skin
 - [ ] refactor styles as a neutral wireframe
-- [ ] concatenate and minify .js files
+- [ ] minify .js files
+- [x] concatenate .js files
 - [x] map through an object storing the markdown file paths and HTML destinations
 - [x] make Markdown converter generic
 - [x] rewrite content (this is a straight copy)
