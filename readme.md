@@ -1,6 +1,6 @@
 # Website for Ecovisum
 
-A rough content plan for the new Ecovisum website, built as a static single page from Markdown files, compiled with [Showdown.js](https://github.com/showdownjs/showdown/wiki/Showdown-options).
+A rough content plan and outline for the new [Ecovisum website](https://daveeveritt.github.io/ecovisum-site/), as a static single page built from Markdown files compiled with [Showdown.js](https://github.com/showdownjs/showdown/wiki/Showdown-options). Just edit the markdown, push and the live site is updated.
 
 ## TO DO
 
@@ -23,6 +23,8 @@ uglifyjs doesn't do ES6. Try one of these:
 
 - [Douglas Crockford's JSMin](http://www.crockford.com/javascript/jsmin.html)
 - [Terser](https://github.com/terser-js/terser/blob/master/README.md)
+
+or go with the herd and try [Gulp](https://codehangar.io/concatenate-and-minify-javascript-with-gulp/)
 
 ## References
 
