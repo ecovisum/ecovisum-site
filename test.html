@@ -6,11 +6,11 @@
     <style media="screen">
 
       body {
-        --hue: 60;
-        --sat: 15%;
-        --lum_pale: 70%;
-        --lum_body: 50%;
-        --lum_dark: 15%;
+        --hue:60;
+        --sat:15%;
+        --lum_pale:70%;
+        --lum_body:50%;
+        --lum_dark:15%;
         --pale: hsl(var(--hue), var(--sat), var(--lum_pale));
         --mid: hsl(var(--hue), var(--sat), var(--lum_body));
         --dark: hsl(var(--hue), var(--sat), var(--lum_dark));
@@ -99,17 +99,18 @@
       </p>
     </section>
     <script type="text/javascript">
-      const bod = getComputedStyle(document.body);
-      hueSlider.addEventListener('input', setVariable('--hue', ''));
-      satSlider.addEventListener('input', setVariable('--sat', '%'));
-      paleSlider.addEventListener('input', setVariable('--lum_pale', '%'));
-      midSlider.addEventListener('input', setVariable('--lum_body', '%'));
-      darkSlider.addEventListener('input', setVariable('--lum_dark', '%'));
+      const get_bod = getComputedStyle(document.body).getPropertyValue.bind(getComputedStyle(document.body));
+      init_slider(hueSlider, '--hue', '');
+      init_slider(satSlider, '--sat', '%');
+      init_slider(paleSlider, '--lum_pale', '%');
+      init_slider(midSlider, '--lum_body', '%');
+      init_slider(darkSlider, '--lum_dark', '%');
+      update_colours();
 
       function update_colours() {
-        light.innerHTML = `${bod.getPropertyValue('--pale')} --pale`;
-        body.innerHTML = `${bod.getPropertyValue('--mid')} --mid`;
-        dark.innerHTML = `${bod.getPropertyValue('--dark')} --dark`;
+        light.innerHTML = `${get_bod('--pale')} --pale`;
+        body.innerHTML = `${get_bod('--mid')} --mid`;
+        dark.innerHTML = `${get_bod('--dark')} --dark`;
       }
 
       function setVariable(name, pattern) {
@@ -119,12 +120,11 @@
         };
       }
 
-      hueSlider.value = parseInt(bod.getPropertyValue('--hue'));
-      satSlider.value = parseInt(bod.getPropertyValue('--sat'));
-      paleSlider.value = parseInt(bod.getPropertyValue('--lum_pale'));
-      midSlider.value = parseInt(bod.getPropertyValue('--lum_body'));
-      darkSlider.value = parseInt(bod.getPropertyValue('--lum_dark'));
-      update_colours();
+      function init_slider(slider, name, pattern) {
+        slider.addEventListener('input', setVariable(name, pattern));
+        slider.value = parseInt(get_bod(name));
+      }
+
     </script>
 
   </body>
