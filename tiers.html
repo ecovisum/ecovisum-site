@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ecovisum Ltd.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="styles.css">
+<body>
+  <nav id="header">
+    <div class="dropdown">
+      <a href="#page-1">Ecovisum</a>
+      <div class="submenu">
+        <a href="#page-2">Problem</a>
+        <a href="#page-3">Solution</a>
+        <a href="#page-4">Clients</a>
+      </div>
+    </div>
+    <a href="#page-5">Everyone</a>
+    <a href="#page-6">Prices</a>
+    <a href="#page-7">About</a>
+    <a href="#page-8">Research</a>
+  </nav>
+
+  <main id="main">
+    <h2>Your tier</h2>
+    <ul>
+      <li>tier: X-large</li>
+      <li>buildings: 500</li>
+      <li>price: 8500</li>
+      <li>extra: 5</li>
+    </ul>
+  </main>
+  <a class="top" href="#page-1">TOP</a>
+
+  <script src="js/tiers.js"></script>
+  <script>
+    const result = tiers.find(o => o.buildings === 500);
+    console.log(result);
+  </script>
+</body>
+</html>
