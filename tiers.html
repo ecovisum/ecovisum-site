@@ -31,6 +31,15 @@
 
   <script src="js/tiers.js"></script>
   <script>
+    let getTiers = tiers.map((t, i) => {
+      console.log(`<li id="tier${i+1}"><strong>${t.tier}</strong>: ${t.price} for ${t.buildings}. EU${t.extra} per extra bulding</li>`);
+      return(`<li id="tier${i+1}"><strong>${t.tier}</strong>: ${t.price} for ${t.buildings}. EU${t.extra} per extra bulding</li>`);
+    });
+    showTiers.innerHTML = getTiers.join('');
+  </script>
+</body>
+</html>
+<!--
     // pass slider value to this
     // const whichTier = tier => {
     //   yourTier = tiers.find(o => o.buildings === tier);
@@ -38,11 +47,4 @@
     // }
     // console.log(whichTier(500));
 
-    let getTiers = tiers.map(t => {
-      console.log(`<li>${t.tier}: ${t.price}</li>`);
-      return(`<li><strong>${t.tier}</strong>: ${t.price} for ${t.buildings}. EU${t.extra} per extra bulding</li>`);
-    });
-    showTiers.innerHTML = getTiers.join('');
-  </script>
-</body>
-</html>
+-->
