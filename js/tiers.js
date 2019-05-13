@@ -1,32 +1,32 @@
 const tiers = [
   {
-    Tier: "Basic",
-    Buildings: 5,
-    Price: 500,
-    Extra: 100
+    tier: "Basic",
+    buildings: 5,
+    price: 500,
+    extra: 100
   },
   {
-    Tier: "Small",
-    Buildings: 10,
-    Price: 1000,
-    Extra: 50
+    tier: "Small",
+    buildings: 10,
+    price: 1000,
+    extra: 50
   },
   {
-    Tier: "Medium",
-    Buildings: 3000,
-    Price: 3000,
-    Extra: 20
+    tier: "Medium",
+    buildings: 3000,
+    price: 3000,
+    extra: 20
   },
   {
-    Tier: "Large",
-    Buildings: 150,
-    Price: 5000,
-    Extra: 10
+    tier: "Large",
+    buildings: 150,
+    price: 5000,
+    extra: 10
   },
   {
-    Tier: "X-large",
-    Buildings: 500,
-    Price: 8500,
-    Extra: 5
+    tier: "X-large",
+    buildings: 500,
+    price: 8500,
+    extra: 5
   },
 ]
