@@ -13,7 +13,7 @@ const tiers = [
   },
   {
     tier: "Medium",
-    buildings: 3000,
+    buildings: 50,
     price: 3000,
     extra: 20
   },
