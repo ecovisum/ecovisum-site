@@ -24,19 +24,25 @@
 
   <main id="main">
     <h2>Your tier</h2>
-    <ul>
-      <li>tier: X-large</li>
-      <li>buildings: 500</li>
-      <li>price: 8500</li>
-      <li>extra: 5</li>
+    <ul id="showTiers">
     </ul>
   </main>
   <a class="top" href="#page-1">TOP</a>
 
   <script src="js/tiers.js"></script>
   <script>
-    const result = tiers.find(o => o.buildings === 500);
-    console.log(result);
+    // pass slider value to this
+    // const whichTier = tier => {
+    //   yourTier = tiers.find(o => o.buildings === tier);
+    //   return(yourTier);
+    // }
+    // console.log(whichTier(500));
+
+    let getTiers = tiers.map(t => {
+      console.log(`<li>${t.tier}: ${t.price}</li>`);
+      return(`<li><strong>${t.tier}</strong>: ${t.price} for ${t.buildings}. EU${t.extra} per extra bulding</li>`);
+    });
+    showTiers.innerHTML = getTiers.join('');
   </script>
 </body>
 </html>
