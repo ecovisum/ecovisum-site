@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="stylesheet" href="styles.css">
+  <style media="screen">
+    .highlight {
+      background: yellow;
+    }
+  </style>
 <body>
   <nav id="header">
     <div class="dropdown">
@@ -23,20 +28,37 @@
   </nav>
 
   <main id="main">
-    <h2>Your tier</h2>
+    <h1>Your tier</h1>
     <ul id="showTiers">
     </ul>
+
+    <input id="buildings" type="range" value="0" min="0" max="1000">
+    <span id="bldgs">0</span> <span>buildings</span> -
+    <span>€</span><span id="price">0</span>
   </main>
   <a class="top" href="#page-1">TOP</a>
 
   <script src="js/tiers.js"></script>
+  <script src="js/pricing.js"></script>
+
   <script>
-    let getTiers = tiers.map((t, i) => {
-      console.log(`<li id="tier${i+1}"><strong>${t.tier}</strong>: ${t.price} for ${t.buildings}. EU${t.extra} per extra bulding</li>`);
-      return(`<li id="tier${i+1}"><strong>${t.tier}</strong>: ${t.price} for ${t.buildings}. EU${t.extra} per extra bulding</li>`);
+    let getTiers = tiers.map(t => {
+      return(`<li id="tier${t.id}"><strong>${t.tier}</strong>: €${t.price} for ${t.buildings}. €${t.extra} per extra bulding</li>`);
     });
     showTiers.innerHTML = getTiers.join('');
   </script>
+
+  <script type="text/javascript">
+    const showPrice = ev => {
+      bldgs.innerHTML = ev.target.value;
+      price.innerHTML = getPrice(ev.target.value);
+      let tier = getTier(ev.target.value);
+      [...document.querySelectorAll("[id^=tier]")].forEach(el=>{el.classList.remove('highlight');})
+      document.getElementById(`tier${tier.id}`).classList.add('highlight');
+    }
+    buildings.addEventListener("input", showPrice);
+  </script>
+
 </body>
 </html>
 <!--
