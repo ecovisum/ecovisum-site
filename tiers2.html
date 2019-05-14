@@ -41,6 +41,7 @@
       <p class="importantInformation">
         <input id="altBuildings" type="range" value="0" min="0" max="800"><br>
         <span id="altBldgs">0</span> <span>buildings</span> = <span>€</span><span id="altPrice">0</span>
+        <span id="altExtras"></span>
       </p>
     </section>
 
@@ -120,9 +121,15 @@
 
   <script type="text/javascript">
     const altShowPrice = ev => {
-      altBldgs.innerHTML = ev.target.value;
-      altPrice.innerHTML = getPrice(ev.target.value);
       let tier = getTier(ev.target.value);
+      let extra = Math.max(0, ev.target.value - tier.buildings);
+      altBldgs.innerHTML = ev.target.value;
+      altPrice.innerHTML = tier.price;
+      if (extra) {
+        altExtras.innerHTML = ` + €${tier.extra} x ${extra} = €${getPrice(ev.target.value)}`
+      } else {
+        altExtras.innerHTML = "";
+      }
       [...document.querySelectorAll("[id^=altTier]")].forEach(el=>{el.classList.remove('highlight');})
       document.getElementById(`altTier${tier.id}`).classList.add('highlight');
     }
