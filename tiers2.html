@@ -54,20 +54,6 @@
 
   <a class="top" href="#page-1">TOP</a>
 
-  <script src="js/tiers.js"></script>
-  <script src="js/pricing.js"></script>
-
-  <script type="text/javascript">
-    const altShowPrice = ev => {
-      altBldgs.innerHTML = ev.target.value;
-      altPrice.innerHTML = getPrice(ev.target.value);
-      let tier = getTier(ev.target.value);
-      [...document.querySelectorAll("[id^=altTier]")].forEach(el=>{el.classList.remove('highlight');})
-      document.getElementById(`altTier${tier.id}`).classList.add('highlight');
-    }
-    altBuildings.addEventListener("input", altShowPrice);
-  </script>
-
   <template id="my-tiers">
     <style media="screen">
       ul {
@@ -122,6 +108,20 @@
     </li>
 
   </template>
+
+  <script src="js/tiers.js"></script>
+  <script src="js/pricing.js"></script>
+
+  <script type="text/javascript">
+    const altShowPrice = ev => {
+      altBldgs.innerHTML = ev.target.value;
+      altPrice.innerHTML = getPrice(ev.target.value);
+      let tier = getTier(ev.target.value);
+      [...document.querySelectorAll("[id^=altTier]")].forEach(el=>{el.classList.remove('highlight');})
+      document.getElementById(`altTier${tier.id}`).classList.add('highlight');
+    }
+    altBuildings.addEventListener("input", altShowPrice);
+  </script>
 
   <script type="text/javascript">
     var input_event = new Event('input');
