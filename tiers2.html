@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ecovisum Ltd.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" href="styles.css">
+  <style media="screen">
+    .importantInformation {
+      padding: 0.5em;
+      font-size: 1.4em;
+      text-align: center;
+    }
+    #alternativePrice {
+      /* background: hsl(200, 90%, 70%); */
+
+    }
+  </style>
+<body>
+  <nav id="header">
+    <div class="dropdown">
+      <a href="#page-1">Ecovisum</a>
+      <div class="submenu">
+        <a href="#page-2">Problem</a>
+        <a href="#page-3">Solution</a>
+        <a href="#page-4">Clients</a>
+      </div>
+    </div>
+    <a href="#page-5">Everyone</a>
+    <a href="#page-6">Prices</a>
+    <a href="#page-7">About</a>
+    <a href="#page-8">Research</a>
+  </nav>
+
+  <main id="main">
+    <h1>An alternative way, using templates</h1>
+    <section id="alternativePrice">
+      <p class="importantInformation">
+        Calculate your price by selecting how many buildings you would like to include.
+      </p>
+      <p class="importantInformation">
+        <input id="altBuildings" type="range" value="0" min="0" max="1000"><br>
+        <span id="altBldgs">0</span> <span>buildings</span> = <span>€</span><span id="altPrice">0</span>
+      </p>
+    </section>
+
+    <section id="alternativeTiers">
+    </section>
+
+
+    <br><br><br><br><br>
+
+  </main>
+
+  <a class="top" href="#page-1">TOP</a>
+
+  <script src="js/tiers.js"></script>
+  <script src="js/pricing.js"></script>
+
+  <script type="text/javascript">
+    const altShowPrice = ev => {
+      altBldgs.innerHTML = ev.target.value;
+      altPrice.innerHTML = getPrice(ev.target.value);
+      let tier = getTier(ev.target.value);
+      [...document.querySelectorAll("[id^=altTier]")].forEach(el=>{el.classList.remove('highlight');})
+      document.getElementById(`altTier${tier.id}`).classList.add('highlight');
+    }
+    altBuildings.addEventListener("input", altShowPrice);
+  </script>
+
+  <template id="my-tiers">
+    <style media="screen">
+      ul {
+        background: hsl(200, 80%, 10%);
+        padding: 0.5em;
+        display: inline-block;
+        width: calc(100% - 4em);
+        text-align: center;
+        margin: 0 1em;
+      }
+    </style>
+    <ul>
+      <slot name="tiers"><tier-item></tier-item</slot>
+    </ul>
+  </template>
+
+  <template id="simple-tier">
+    <style media="screen">
+      li {
+        list-style: none;
+        margin: 0.25em;
+        min-width: 25%;
+        background: hsl(200, 25%, 80%);
+        display: inline-block;
+        text-align: center;
+        transition: 0.25s;
+        border: 5px solid hsl(200, 100%, 20%);
+      }
+      h2 {
+        margin: 0;
+        padding: 0.25em;
+        background: hsl(200, 50%, 60%);
+      }
+      :host(.highlight) li {
+        border: 5px solid hsl(200, 100%, 60%);
+        background: hsl(200, 100%, 10%);
+        color: hsl(200, 100%, 90%);
+      }
+      :host(.highlight) h2 {
+        background: hsl(200, 100%, 20%);
+      }
+    </style>
+    <li>
+      <h2><slot name="name">Nothing</slot></h2>
+      <p>
+        <strong>€<slot name="price">0</slot></span></strong><br>
+      </p>
+      <p>
+        <span>Includes <slot name="buildings">no</slot> buildings</span><br>
+        <small>+€<slot name="extra">0</slot> per additional building</small>
+      </p>
+    </li>
+
+  </template>
+
+  <script type="text/javascript">
+    class TierItem extends HTMLElement {
+      constructor() {
+        super();
+        let template = document.getElementById('simple-tier');
+        let templateContent = template.content;
+        const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(templateContent.cloneNode(true));
+      }
+    }
+
+    class TierList extends HTMLElement {
+      constructor() {
+        super();
+        let template = document.getElementById('my-tiers');
+        let templateContent = template.content;
+        const shadowRoot = this.attachShadow({mode: 'open'}).appendChild(templateContent.cloneNode(true));
+      }
+    }
+
+    const createSlot = (name, value) => {
+      let slot = document.createElement('span');
+      slot.setAttribute('slot', name);
+      slot.innerHTML = value;
+      return slot;
+    }
+
+    customElements.define('tier-item', TierItem)
+    customElements.define('tier-list', TierList)
+
+
+    let myList = document.createElement('tier-list');
+    let mySlot = document.createElement('span');
+    mySlot.setAttribute('slot', 'tiers');
+
+    tiers.forEach(t => {
+      let myItem = document.createElement('tier-item');
+      myItem.id = `altTier${t.id}`
+      myItem.appendChild(createSlot('name', t.tier));
+      myItem.appendChild(createSlot('buildings', t.buildings));
+      myItem.appendChild(createSlot('price', t.price));
+      myItem.appendChild(createSlot('extra', t.extra));
+      mySlot.appendChild(myItem);
+    });
+    myList.appendChild(mySlot);
+    alternativeTiers.appendChild(myList);
+  </script>
+
+</body>
+</html>
