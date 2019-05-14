@@ -76,11 +76,17 @@
         list-style: none;
         margin: 0.25em;
         min-width: 25%;
-        background: hsl(200, 25%, 80%);
+        background: hsl(200, 50%, 80%);
         display: inline-block;
         text-align: center;
         transition: 0.25s;
         border: 5px solid hsl(200, 100%, 20%);
+      }
+      li:hover {
+        background: hsl(200, 100%, 80%);
+      }
+      li:hover h2 {
+        background: hsl(200, 100%, 60%);
       }
       h2 {
         margin: 0;
@@ -92,7 +98,7 @@
         background: hsl(200, 100%, 10%);
         color: hsl(200, 100%, 90%);
       }
-      :host(.highlight) h2 {
+      :host(.highlight) li h2 {
         background: hsl(200, 100%, 20%);
       }
     </style>
