@@ -7,6 +7,13 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="stylesheet" href="styles.css">
   <style media="screen">
+    #alternativeTiers {
+      background: hsl(200, 80%, 10%);
+    }
+    #alternativeTiers > p {
+      color: hsl(200, 80%, 90%);
+
+    }
     .importantInformation {
       padding: 0.5em;
       font-size: 1.4em;
@@ -59,24 +66,12 @@
     }
   </style>
 <body>
-  <nav id="header">
-    <div class="dropdown">
-      <a href="#page-1">Ecovisum</a>
-      <div class="submenu">
-        <a href="#page-2">Problem</a>
-        <a href="#page-3">Solution</a>
-        <a href="#page-4">Clients</a>
-      </div>
-    </div>
-    <a href="#page-5">Everyone</a>
-    <a href="#page-6">Prices</a>
-    <a href="#page-7">About</a>
-    <a href="#page-8">Research</a>
-  </nav>
 
-  <main id="main">
-    <h1>Pricing</h1>
+
     <section id="alternativePrice">
+    </section>
+
+    <section id="alternativeTiers">
       <p class="importantInformation">
         Calculate your price by selecting how many buildings you would like to include.
       </p>
@@ -87,20 +82,12 @@
       </p>
     </section>
 
-    <section id="alternativeTiers">
-    </section>
 
 
-    <br><br><br><br><br>
-
-  </main>
-
-  <a class="top" href="#page-1">TOP</a>
 
   <template id="my-tiers">
     <style media="screen">
       ul {
-        background: hsl(200, 80%, 10%);
         padding: 0.5em;
         display: inline-block;
         width: calc(100% - 4em);
