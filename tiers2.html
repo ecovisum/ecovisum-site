@@ -182,6 +182,7 @@
       myItem.addEventListener('click', ev => {
         altBuildings.value = t.buildings;
         altBuildings.dispatchEvent(input_event);
+        altBuildings.focus();
       });
       mySlot.appendChild(myItem);
     });
