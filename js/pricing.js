@@ -9,5 +9,5 @@ const getTier = (buildings) => {
 
 const getPrice = (buildings) => {
   let tier = getTier(buildings);
-  return tier.price + tier.extra * (buildings - tier.buildings)
+  return tier.price + tier.extra * Math.max(0, buildings - tier.buildings)
 }
