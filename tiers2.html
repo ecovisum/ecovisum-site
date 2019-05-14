@@ -124,6 +124,8 @@
   </template>
 
   <script type="text/javascript">
+    var input_event = new Event('input');
+
     class TierItem extends HTMLElement {
       constructor() {
         super();
@@ -164,6 +166,10 @@
       myItem.appendChild(createSlot('buildings', t.buildings));
       myItem.appendChild(createSlot('price', t.price));
       myItem.appendChild(createSlot('extra', t.extra));
+      myItem.addEventListener('click', ev => {
+        altBuildings.value = t.buildings;
+        altBuildings.dispatchEvent(input_event);
+      });
       mySlot.appendChild(myItem);
     });
     myList.appendChild(mySlot);
