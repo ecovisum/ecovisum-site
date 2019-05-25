@@ -4,6 +4,7 @@ A rough content plan and outline for the new [Ecovisum website](https://daveever
 
 ## TO DO
 
+- [ ] make 3 repos: EDI-Net, Ecovisum, Markdown-GitHub Pages
 - [ ] do mobile menu
 - [ ] make design as a skin
 - [ ] refactor styles as a neutral wireframe
