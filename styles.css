@@ -1,4 +1,23 @@
+@font-face {
+  font-family: Dosis;
+  src: url(fonts/Dosis-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  src: url(fonts/RobotoSlab-Light.ttf);
+}
+@font-face {
+  font-family: RobotoReg;
+  src: url(fonts/RobotoSlab-Regular.ttf);
+}
 html {
+  /*
+  EDI-Net COLOURS:
+--logoRed: rgb(237, 27, 36);
+--logoGreen: rgb(65, 173, 72);
+--logoBlue: rgb(0, 112, 175);
+--logoGrey: rgb(88, 89, 91);
+  */
   --paleHighlight: rgb(180, 200, 210);
   --paleColour: rgb(190, 220, 230);
   --palerColour: rgb(200, 230, 240);
@@ -8,10 +27,13 @@ html {
 }
 body {
   margin: 0;
-  font-family: Tahoma, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 1em;
   overflow: hidden;
   background: var(--palerVery);
+}
+h1, h2, h3, h4 {
+  font-family: Dosis, sans-serif;
 }
 a {
   text-decoration: none;
