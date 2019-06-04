@@ -1,6 +1,6 @@
 const getTier = (buildings) => {
   if (buildings < 5) { return tiers[0] }
-  if (buildings >= tiers[tiers.length-1].buildings) { return tiers[tiers.length-1] }
+  if (buildings >= tiers[tiers.length - 1].buildings) { return tiers[tiers.length - 1] }
   let index = tiers.findIndex(element => {
     return element.buildings > buildings;
   })

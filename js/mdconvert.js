@@ -4,7 +4,7 @@ const getMarkdown = (filename, mdPage) => {
   fetch(filename, { credentials: 'same-origin' })
     .then((response) => {
       response.text()
-      .then((text) => convertMd(text, mdPage))
+        .then((text) => convertMd(text, mdPage))
     })
     .catch(e => console.log(`Something's wrong: ${e}`));
 }
