@@ -4,7 +4,7 @@ A rough content plan and outline for the new [Ecovisum website](https://daveever
 
 ## TO DO
 
-- [ ] make 3 repos: EDI-Net, Ecovisum, Markdown-GitHub Pages
+- [ ] make 2 repos: Ecovisum, Markdown-GitHub Pages
 - [ ] add "use strict" and contain code in an IIFE
 - [ ] do mobile menu
 - [ ] make design as a skin
@@ -28,6 +28,15 @@ uglifyjs doesn't do ES6. Try one of these:
 - [Terser](https://github.com/terser-js/terser/blob/master/README.md)
 
 or go with the herd and try [Gulp](https://codehangar.io/concatenate-and-minify-javascript-with-gulp/)
+
+## JavaScript linting and formatting
+
+use the Prettier and Healthier modules, which can be installed globally.
+
+In package.json:
+
+    "lint": "healthier && prettier --check '**/*.{js,json,css,yml}'",
+    "format": "prettier --write '**/*.{js,json,css,yml}'"
 
 ## References
 

@@ -1,3 +1,4 @@
+/* globals fetch */
 const converter = new showdown.Converter();
 
 const getMarkdown = (filename, mdPage) => {
