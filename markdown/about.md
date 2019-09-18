@@ -2,7 +2,7 @@
 
 ![EDI-Net people representing 'us'](images/edi-people.png)
 
-> since 2007 we have researched developed the ideas that underpin our product, which is now available as a service.
+> since 2007 we have researched developed the ideas that underpin our energy data monitoring service.
 
 The perfect system is effective, fast and cheap. However, in reality two of the three key areas will receive more focus than the other:
 

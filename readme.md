@@ -1,5 +1,7 @@
 # Website for Ecovisum
 
+Test: free hosting etc. from GitHub to Render.com: [ecovisum.onrender.com](https://ecovisum.onrender.com/).
+
 A rough content plan and outline for the new [Ecovisum website](https://daveeveritt.github.io/ecovisum-site/), as a static single page built from Markdown files compiled with [Showdown.js](https://github.com/showdownjs/showdown/wiki/Showdown-options). Just edit the markdown, push and the live site is updated.
 
 ## TO DO
