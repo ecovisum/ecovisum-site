@@ -11,13 +11,6 @@
   src: url(fonts/RobotoSlab-Regular.ttf);
 }
 html {
-  /*
-  EDI-Net COLOURS:
---logoRed: rgb(237, 27, 36);
---logoGreen: rgb(65, 173, 72);
---logoBlue: rgb(0, 112, 175);
---logoGrey: rgb(88, 89, 91);
-  */
   --paleHighlight: rgb(180, 200, 210);
   --paleColour: rgb(190, 220, 230);
   --palerColour: rgb(200, 230, 240);
@@ -52,8 +45,7 @@ nav {
   transition: .5s;
   z-index: 1000;
 }
-nav a,
-nav .dropdown {
+nav a {
   padding: 0 5px;
   box-sizing: border-box;
   display: inline-block;
@@ -61,47 +53,6 @@ nav .dropdown {
 nav a:hover {
   color: #222;
 }
-
-/* Dropdown menu */
-.dropdown a {
-  width: 6em;
-}
-.dropdown {
-  position: relative;
-}
-.submenu {
-  position: absolute;
-  top: -6em;
-  background: white;
-  width: 6em;
-  transition: top .2s;
-  z-index: -5000;
-}
-.submenu a {
-  display: block;
-  background: var(--paleColour);
-}
-.submenu a:hover {
-  display: block;
-  background: var(--paleHighlight);
-}
-.dropdown > a {
-  background: var(--paleHighlight);
-}
-.dropdown > a::after {
-  content: "+";
-  font-family: monospace;
-  font-size: 1.25em;
-  padding: 0 4px;
-}
-.dropdown > a:hover::after {
-  content: "-";
-}
-.dropdown > a:hover ~ .submenu,
-.submenu:hover {
-  top: 2em;
-}
-
 
 main {
   position: relative;
@@ -137,7 +88,7 @@ h1 {
 h2, h3 {
   padding-top: .5em;
 }
-h2{
+h2 {
   font-size: 1.5em;
 }
 h3 {
@@ -158,7 +109,6 @@ blockquote {
 blockquote::before {
   content: "“";
   font-size: 7em;
-  letter-spacing: -.2em;
   color: var(--paleHighlight);
   font-family: times, serif;
   position: absolute;

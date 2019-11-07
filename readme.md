@@ -10,6 +10,7 @@ Test: free hosting etc. from GitHub to Render.com: [ecovisum.onrender.com](https
 - [ ] do mobile menu
 - [ ] make design as a skin
 - [ ] minify .js files
+- [ ] git push to server when ready
 - [x] make 2 repos: Ecovisum, Markdown-GitHub Pages
 - [x] concatenate .js files
 - [x] map through an object storing the markdown file paths and HTML destinations

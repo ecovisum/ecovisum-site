@@ -1,5 +1,12 @@
+"use strict";
+
 /* globals fetch */
 const converter = new showdown.Converter();
+
+const convertMd = (md, mdPage) => {
+  let convertedText = converter.makeHtml(md);
+  mdPage.innerHTML = convertedText;
+}
 
 const getMarkdown = (filename, mdPage) => {
   fetch(filename, { credentials: 'same-origin' })
@@ -8,11 +15,6 @@ const getMarkdown = (filename, mdPage) => {
         .then((text) => convertMd(text, mdPage))
     })
     .catch(e => console.log(`Something's wrong: ${e}`));
-}
-
-const convertMd = (md, mdPage) => {
-  convertedText = converter.makeHtml(md);
-  mdPage.innerHTML = convertedText;
 }
 
 pages.map(p => getMarkdown(p.mdFile, p.page));

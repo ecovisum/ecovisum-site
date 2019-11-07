@@ -1,3 +1,5 @@
+"use strict";
+
 const main = document.getElementById("main");
 const header = document.getElementById("header");
 
