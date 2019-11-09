@@ -7,9 +7,9 @@
 </div>
 
 <!--
-![Graeme Stuart](/images/graeme-stuart-200x200.jpg)
-![Dave Everitt](/images/dave-everitt-200x200.jpg)
-![Fania Raczinski](/images/fania-raczinski-200x200.jpg)
+![Graeme Stuart](images/graeme-stuart-200x200.jpg)
+![Dave Everitt](images/dave-everitt-200x200.jpg)
+![Fania Raczinski](images/fania-raczinski-200x200.jpg)
 -->
 
 

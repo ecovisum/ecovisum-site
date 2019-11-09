@@ -1,8 +1,6 @@
 # ECOVISUM
 
-![image here](/images/nus-dashboard-competition.png)
-
-<!-- SAVES/EDI-Net combined image needed -->
+![SAVES/EDI-Net combined image needed](images/nus-dashboard-competition.png)
 
 Award-winning software for energy monitoring and public engagement with energy usage
 
