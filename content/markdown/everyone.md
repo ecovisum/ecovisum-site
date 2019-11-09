@@ -1,8 +1,7 @@
 # Energy data for everyone
 
-## Detailed energy management for experts
 
-![Magic squares](images/magic-squares.png)
+## Detailed energy management for experts
 
 > Ecovisum’s systems offer easy at-a-glance monitoring of energy usage (electricity, gas, water) with increasing detail as required, at a click
 
@@ -17,8 +16,6 @@ In one online location you have:
 
 
 ## At-a-glance energy information for non-technical stakeholders
-
-![Image of people viewing the dashboard on a big screen and/or mobile]()
 
 > Ecovisum’s energy dashboards can be used for communication… to everyone
 

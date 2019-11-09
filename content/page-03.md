@@ -1,11 +1,23 @@
-# page 03 content
+# Who we are
 
-<img src=""><!-- SAVES/EDI-Net -->
+<div class="panels">
 
-![image here](/images/nus-dashboard-competition.png)
+![Graeme Stuart](/images/graeme-stuart-200x200.jpg)
 
-award-winning (awards
+![Dave Everitt](/images/dave-everitt-200x200.jpg)
 
-energy monitoring
+![Fania Raczinski](/images/fania-raczinski-200x200.jpg)
 
-clients (api logos
+</div>
+
+## Send us a message
+
+Your email will only used to reply, and not be stored.
+
+<form method="post">
+  <label for="name"><input id="name" type="text">
+  <label for="email"><input id="email" type="email">
+  <label for="text"><textarea id="text">
+  <input type="reset">
+  <input type="submit">
+</form>

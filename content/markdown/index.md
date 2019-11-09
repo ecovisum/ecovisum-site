@@ -1,7 +1,5 @@
 # ECOVISUM
 
-![Esther Rolinson's "Splinter"](images/splinter.png)
-
 ## Tools to minimise the costs of energy and water usage
 
 - reduce your environmental impact

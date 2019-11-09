@@ -9,3 +9,7 @@ award-winning (awards
 energy monitoring
 
 clients (api logos
+
+<p>previous projects</p>
+    <p>NUS dashboard</p>
+    <p>EDI-Net</p>

@@ -1,16 +1,14 @@
 # How we work
 
-![EDI-Net people representing 'us'](images/edi-people.png)
+> since 2007 we have researched developed the ideas and software that underpins our energy data monitoring service
 
-> since 2007 we have researched developed the ideas that underpin our energy data monitoring service.
-
-The perfect system is effective, fast and cheap. However, in reality two of the three key areas will receive more focus than the other:
+A perfect system is effective, cheap and speedily updated. However, in reality two of the three key areas will receive more focus than the other:
 
 - quality
 - affordability
 - speed
 
-Our system is **very affordable** **and** of **high quality**, because we **slow down** the development process so that quality and affordability have the highest priority. Our methods are to:
+Our system is of **high quality** yet at a **low cost**, because we **slow down** the development process to allow quality and affordability to have the highest priority. We:
 
 - **evolve software** continuously, but gradually and carefully
 - **recognise** that energy management sits within complex systems
@@ -18,8 +16,6 @@ Our system is **very affordable** **and** of **high quality**, because we **slow
 - **engage users** in development by making feedback a priority
 
 We are open to systematic experimentation, while guarding against complication.
-
-This is how we achieve and deliver **high quality** at a **low cost**.
 
 ## See more:
 

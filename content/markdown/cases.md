@@ -1,6 +1,6 @@
 # Case studies
 
-> Our system has been in use while evolving since 2007. Here are details from some of our users
+> Our systems have been in use while evolving since 2007. Here are details from some of our users
 
 ## The NUS Energy Dashboard
 
@@ -18,7 +18,7 @@ Overall, there was a significant increase in student engagement in the SSO campa
 
 ![EDI-Net Nürnberg image]()
 
-> "The smiley faces dashboard is helping us to further develop the \[municipal energy management] policy. Because many technical measures have already been implemented, the user is now crucial to the future. The smiley faces are one very good measure to engage with users and inform building users about energy." —Eva Anlauft, Head of Municipal Energy Management, City of Nuremberg
+> "The smiley faces dashboard is helping us to further develop the (municipal energy management) policy. Because many technical measures have already been implemented, the user is now crucial to the future. The smiley faces are one very good measure to engage with users and inform building users about energy." —Eva Anlauft, Head of Municipal Energy Management, City of Nuremberg
 
 Under EDI-Net, Nürnberg maintains 34 buildings across four locations, with data displayed at increasing levels of detail on demand, from ‘smiley faces’ to detailed graphs.
 
@@ -26,8 +26,3 @@ By using our software, Nürnberg has been able to quantify the resulting savings
 
 Together with nine other organisations, including the Nottingham NHS, the city is committed to ongoing use of EDI-Net to maintain both awareness of and ease of use in monitoring energy use across a complex array of building and users under their management.
 
----
-
-## Our partners
-
-![Partner logos](images/edi-partners.png)

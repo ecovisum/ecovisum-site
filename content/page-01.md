@@ -1,11 +1,19 @@
-# page 01 content
-
-<img src=""><!-- SAVES/EDI-Net -->
+# ECOVISUM
 
 ![image here](/images/nus-dashboard-competition.png)
 
-award-winning (awards
+<!-- SAVES/EDI-Net combined image needed -->
 
-energy monitoring
+## Tools to minimise the costs of energy and water usage
 
-clients (api logos
+- reduce your environmental impact
+- decrease your financial costs
+- become accountable and transparent
+
+## Making sense of energy data
+
+Our data analysis service processes your data to output just the technical information you need, summarised in various forms:
+
+- at-a-glance hourly monitoring
+- in-depth graphs to identify anomalies
+- visual reports to share with stakeholders
