@@ -1,9 +1,9 @@
 # Who we are
 
 <div class="panels">
-  <img src="/images/graeme-stuart-200x200.jpg" alt="graeme-stuart">
-  <img src="/images/dave-everitt-200x200.jpg" alt="dave-everitt">
-  <img src="/images/fania-raczinski-200x200.jpg" alt="fania-raczinski">
+  <img src="images/graeme-stuart-200x200.jpg" alt="graeme-stuart">
+  <img src="images/dave-everitt-200x200.jpg" alt="dave-everitt">
+  <img src="images/fania-raczinski-200x200.jpg" alt="fania-raczinski">
 </div>
 
 <!--
