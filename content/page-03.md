@@ -1,21 +1,24 @@
 # Who we are
 
 <div class="panels">
-
-![Graeme Stuart](/images/graeme-stuart-200x200.jpg)
-
-![Dave Everitt](/images/dave-everitt-200x200.jpg)
-
-![Fania Raczinski](/images/fania-raczinski-200x200.jpg)
-
+  <img src="/images/graeme-stuart-200x200.jpg" alt="graeme-stuart">
+  <img src="/images/dave-everitt-200x200.jpg" alt="dave-everitt">
+  <img src="/images/fania-raczinski-200x200.jpg" alt="fania-raczinski">
 </div>
+
+<!--
+![Graeme Stuart](/images/graeme-stuart-200x200.jpg)
+![Dave Everitt](/images/dave-everitt-200x200.jpg)
+![Fania Raczinski](/images/fania-raczinski-200x200.jpg)
+-->
+
 
 ## Send us a message
 
 Your email will only used to reply, and not be stored.
 
 <!-- <form action="/cgi-bin/formmail.cgi" method="post" id="contact" title="Contact Angie Denman"> -->
-<form action="#" method="post" id="contact" title="Contact EcoVisum">
+<form action="#" method="post" id="contact" title="Contact EcoVisum" style="margin-bottom: 2em">
   <p>
     <label for="name">Your name:</label>
     <input type="text" name="name" id="name" title="your name" />

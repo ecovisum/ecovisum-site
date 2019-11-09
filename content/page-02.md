@@ -1,7 +1,5 @@
 # Our software
 
-![image here](/images/nus-dashboard-competition.png)
-
 ## EDI-Net energy monitoring
 
 ![Image of EDI-Net organisations](images/edi-net.png)

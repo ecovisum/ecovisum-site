@@ -25,7 +25,7 @@ body {
   overflow: hidden;
   background: var(--palerVery);
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, nav{
   font-family: Dosis, sans-serif;
 }
 a {
@@ -121,7 +121,7 @@ blockquote::before {
   display: flex;
   flex-direction: column;
 }
-.panels section {
+/* .panels section {
   box-sizing: border-box;
   width: 98%;
   padding: .75em;
@@ -133,7 +133,7 @@ blockquote::before {
 }
 .panels h2 {
   padding: 0 0 .25em;
-}
+} */
 
 a.top {
   position: absolute;
@@ -145,6 +145,7 @@ a.top {
   line-height: 2em;
   font-size: .75em;
   background: var(--paleColour);
+  font-family: Dosis, sans-serif;
 }
 /* ====== Contact section ====== */
 /* figure {
@@ -179,10 +180,15 @@ a.top {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  .panels section {
+  .panels img {
     margin: 0.5em;
     width: 30%;
+    border-radius: 50%;
   }
+  /* .panels section {
+    margin: 0.5em;
+    width: 30%;
+  } */
   a.top {
     line-height: 2.5em;
     font-size: 1em;
