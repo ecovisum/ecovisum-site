@@ -20,7 +20,5 @@ Our data analysis service processes your data to output just the technical infor
 
 ## More information:
 
-- [what's the **problem**?](#page-2)
-- [what's our **solution**?](#page-3)
-- [See our **clients**](#page-4)
-- See our [**pricing plans**](#page-6)
+- [what's the **problem**?](#page-02)
+- [what's our **solution**?](#page-03)
