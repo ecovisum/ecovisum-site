@@ -1,4 +1,4 @@
-# ECOVISUM
+# EcoVisum
 
 ![SAVES/EDI-Net combined image needed](images/nus-dashboard-competition.png)
 
