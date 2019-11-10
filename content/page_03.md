@@ -1,9 +1,28 @@
-# Who we are
+# EcoVisum people
 
-<div class="panels">
-  <img src="images/graeme-stuart-200x200.jpg" alt="graeme-stuart">
-  <img src="images/dave-everitt-200x200.jpg" alt="dave-everitt">
-  <img src="images/fania-raczinski-200x200.jpg" alt="fania-raczinski">
+<div class="panels faces">
+  
+  <figure>
+    <img src="images/graeme-stuart-200x200.jpg" alt="portrait: Graeme Stuart">
+    <figcaption>
+      <strong>Graeme Stuart</strong>
+      programmer, energy data specialist
+    </figcaption>
+  </figure>
+  <figure>
+    <img src="images/dave-everitt-200x200.jpg" alt="portrait: Dave Everitt">
+    <figcaption>
+      <strong>Dave Everitt</strong>
+      interface and user experience
+    </figcaption>
+  </figure>
+  <figure>
+    <img src="images/fania-raczinski-200x200.jpg" alt="portrait: Fania Raczinski">
+    <figcaption>
+      <strong>Fania Raczinski</strong>
+      technical consultant, programmer
+    </figcaption>
+  </figure>
 </div>
 
 <!--
@@ -21,15 +40,15 @@ Your email will only used to reply, and not be stored.
 <form action="#" method="post" id="contact" title="Contact EcoVisum" style="margin-bottom: 2em">
   <p>
     <label for="name">Your name:</label>
-    <input type="text" name="name" id="name" title="your name" />
+    <input type="text" id="name" title="your name" />
   </p>
   <p>
     <label for="email">Your email:</label>
-    <input type="email" name="email" id="email" title="your email address" />
+    <input type="email" id="email" title="your email address" />
   </p>
   <p>
     <label for="message">Your message:</label>
-    <textarea rows="10" cols="46" name="message" id="message" title="Your message"></textarea>
+    <textarea rows="10" id="message" title="Your message"></textarea>
   </p>
   <!-- <div class="hptfield">
     <label>Keep this field blank</label>

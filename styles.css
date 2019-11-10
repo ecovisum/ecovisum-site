@@ -23,13 +23,15 @@ body {
   font-family: Roboto, sans-serif;
   font-size: 1em;
   overflow: hidden;
-  background: var(--palerVery);
+  background: var(--darkColour);
 }
 h1, h2, h3, h4, nav{
   font-family: Dosis, sans-serif;
 }
 a {
   text-decoration: none;
+}
+p a {
   color: var(--darkColour);
 }
 nav {
@@ -39,19 +41,21 @@ nav {
   line-height: 2em;
   font-size: 1em;
   opacity: .96;
-  background: var(--paleColour);
+  background: var(--darkColour);
   position: fixed;
   width: 100%;
   transition: .5s;
   z-index: 1000;
 }
 nav a {
+  color: var(--neutralPale);
   padding: 0 5px;
   box-sizing: border-box;
   display: inline-block;
+  transition: color .5s;
 }
 nav a:hover {
-  color: #222;
+  color: var(--palerVery);
 }
 
 main {
@@ -60,7 +64,7 @@ main {
   height: 100vh;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  background: white;
+  background: var(--paleHighlight);
 }
 
 section[id^="page"] {
@@ -73,10 +77,6 @@ section[id^="page"] {
 section img {
   width: 100%;
 }
-section:nth-child(even) {
-  background: var(--neutralPale);
-}
-
 h1, h2, h3 {
   margin: 0;
   color: var(--darkColour);
@@ -85,19 +85,39 @@ h1 {
   font-size: 2.5em;
   padding-top: 1.25em;
 }
-h2, h3 {
-  padding-top: .5em;
+h2, h3 { padding-top: .5em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+
+section:nth-child(odd) {
+  background: var(--neutralPale);
 }
-h2 {
-  font-size: 1.5em;
+#page_01.backgroundImg {
+  background: var(--paleColour) url("/images/net.png") no-repeat fixed center;
+  background-size: cover;
 }
-h3 {
-  font-size: 1.25em;
+#page_02.backgroundImg {
+  background: var(--darkColour) url("/images/web.png") no-repeat fixed center;
+  background-size: cover;
+  color: var(--palerVery);
 }
+#page_02.backgroundImg h1,
+#page_02.backgroundImg h2,
+#page_02.backgroundImg h3,
+#page_02.backgroundImg a {
+  color: var(--palerVery);  
+}
+#page_01 h1 img {
+  padding-top: .25em;
+  width: 40%;
+  min-width: 228px;
+}
+
 p a:hover {
   text-decoration: underline;
 }
-blockquote {
+
+/* blockquote {
   position: relative;
   margin: 1em 0 1em 20px;
   padding: .5em 1em;
@@ -114,12 +134,39 @@ blockquote::before {
   position: absolute;
   top: -35px;
   left: -20px;
-}
+} */
 
 /* ====== Research section ====== */
-.panels {
+/* .panels {
   display: flex;
   flex-direction: column;
+} */
+.panels.faces {
+  display: flex;
+  flex-direction: row;
+}
+.panels figure {
+  margin: 1em .5em;
+  width: 30%;
+  text-align: center;
+}
+.panels figure:first-child {
+  margin-left: 0;
+}
+.panels figure:last-child {
+  margin-right: 0;
+}
+.panels figure {
+  padding-bottom: .5em;
+  border-bottom: 2px solid var(--paleColour);
+}
+.panels figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.panels figcaption strong {
+  display: block;
 }
 /* .panels section {
   box-sizing: border-box;
@@ -144,21 +191,47 @@ a.top {
   text-align: center;
   line-height: 2em;
   font-size: .75em;
-  background: var(--paleColour);
+  color: var(--paleColour);
+  background: var(--darkColour);
   font-family: Dosis, sans-serif;
 }
-/* ====== Contact section ====== */
-/* figure {
-  text-align: center;
-} */
 
-/* address {
-  font-style: normal;
+/* ====== Contact form ====== */
+
+form {
+  clear: both;
+  text-align: right;
 }
-.footermenu a {
-  height: 1.5em;
-  display: block;
-} */
+label {
+  /* width: 9em; */
+  text-align: right;
+  display: inline-block;
+  padding-right: .5em;
+  width: 25%;
+}
+input, textarea {
+  padding: 6px;
+  font-size: 1em;
+  width: 70%;
+  border: 1px solid var(--paleColour);
+  box-sizing: border-box;
+}
+textarea {
+  float: right;
+}
+input:focus, textarea:focus {
+  border: 1px solid var(--darkColour);
+}
+.buttons {
+  clear: both;
+  padding-top: 1em;
+  text-align: right;
+}
+.buttons input {
+  width: 8em;
+}
+/* ===== /Contact form ====== */
+
 
 @media screen and (min-width: 600px) {
   body {
@@ -179,11 +252,6 @@ a.top {
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
-  }
-  .panels img {
-    margin: 0.5em;
-    width: 30%;
-    border-radius: 50%;
   }
   /* .panels section {
     margin: 0.5em;

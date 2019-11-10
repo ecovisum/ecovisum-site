@@ -1,10 +1,10 @@
-# Our software
+# EcoVisum software
 
 ## EDI-Net energy monitoring
 
 ![Image of EDI-Net organisations](images/edi-net.png)
 
-[edi-net.eu](https://www.edi-net.eu/en/)
+**[edi-net.eu](https://www.edi-net.eu/en/)**
 
 EDI-Net has been running successfully since 2018, with some authorities saving up to ???% on energy usage.
 
@@ -20,7 +20,7 @@ Organisations with regular, reliable energy data use EDI-Net to inform building 
 
 ![Image of dashboard](images/nus-dashboard-competition.png)
 
-[switchoff.nus.org.uk](https://switchoff.nus.org.uk)
+**[switchoff.nus.org.uk](https://switchoff.nus.org.uk)**
 
 The energy dashboard has supported the NUS Student Switch Off campaign since March 2014. See the [case study](#the-nus-energy-dashboard)
 

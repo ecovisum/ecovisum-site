@@ -19,5 +19,5 @@ We are open to systematic experimentation, while guarding against complication.
 
 ## See more:
 
-- [Case studies](#page-4)
-- [Research](#page-8)
+- [Case studies](#page_4)
+- [Research](#page_8)
