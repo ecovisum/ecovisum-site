@@ -1,3 +1,5 @@
+"use strict";
+
 const pages = [
   {
     "page": document.getElementById('page_01'),

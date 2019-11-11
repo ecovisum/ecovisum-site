@@ -6,11 +6,13 @@ Test: free hosting etc. from GitHub to Render.com: [ecovisum.onrender.com](https
 
 ## TO DO
 
-- [ ] add "use strict" and contain code in an IIFE
+- [ ] contain code in an IIFE
 - [ ] do mobile menu
 - [ ] make design as a skin
 - [ ] minify .js files
 - [ ] git push to server when ready
+- [ ] add Twitter and Discourse email (Graeme backwards/forwards CSS)
+- [ ] add awards (Green Gown, Class 2020)
 - [x] make 2 repos: Ecovisum, Markdown-GitHub Pages
 - [x] concatenate .js files
 - [x] map through an object storing the markdown file paths and HTML destinations
