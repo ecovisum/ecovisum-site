@@ -113,18 +113,21 @@ section:nth-child(odd) {
   min-width: 228px;
 }
 
-p a:hover {
+p a {
   text-decoration: underline;
 }
+p a:hover {
+  text-decoration: none;
+}
 
-/* blockquote {
+blockquote {
   position: relative;
-  margin: 1em 0 1em 20px;
+  margin: 1em 1em 1em 20px;
   padding: .5em 1em;
-  border-radius: 4px;
-  background: white;
-  border: 2px solid var(--paleColour);
-  border-radius: 4px;
+  background: var(--neutralPale);
+  border: 2px solid var(--darkColour);
+  border-radius: 6px;
+  color: var(--darkColour);
 }
 blockquote::before {
   content: "“";
@@ -134,7 +137,7 @@ blockquote::before {
   position: absolute;
   top: -35px;
   left: -20px;
-} */
+}
 
 /* ====== Research section ====== */
 /* .panels {

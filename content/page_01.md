@@ -13,7 +13,7 @@ Award-winning software for energy monitoring and public engagement with energy u
 
 ## Making sense of energy data
 
-Our data analysis service processes your data to output just the technical information you need, summarised in various forms:
+Our data analysis service processes your data to output just the technical information you need, summarised as:
 
 - at-a-glance hourly monitoring
 - in-depth graphs to identify anomalies

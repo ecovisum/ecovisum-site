@@ -4,8 +4,6 @@
 
 ## The NUS Energy Dashboard
 
-![NUS dashboard image]()
-
 > "NUS SSO quote about dashboard here"—Quote credit
 
 The National Union of Students offer our ‘Energy Dashboard’ to enhance engagement in the energy-saving campaign ‘Student Switch-Off’ (SSO). EcoVisum offers universities and student residence providers across the UK and EU intra-hall energy-saving competitions calculated from live energy data. These are displayed as ‘leaderboards’ with the highest savers at the top.
@@ -15,8 +13,6 @@ From a single online software service, the dashboard is available from mobile, t
 Overall, there was a significant increase in student engagement in the SSO campaign with organisations using EcoVsum’s ‘Energy Dashboard’. There are also universities outside the SSO campaign who us the software to encourage student awareness of energy usage.
 
 ## Stadt Nürnberg and EDI-Net
-
-![EDI-Net Nürnberg image]()
 
 > "The smiley faces dashboard is helping us to further develop the (municipal energy management) policy. Because many technical measures have already been implemented, the user is now crucial to the future. The smiley faces are one very good measure to engage with users and inform building users about energy." —Eva Anlauft, Head of Municipal Energy Management, City of Nuremberg
 
