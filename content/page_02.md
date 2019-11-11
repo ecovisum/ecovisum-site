@@ -6,7 +6,7 @@
 
 **[edi-net.eu](https://www.edi-net.eu/en/)**
 
-EDI-Net has been running successfully since 2018, with authorities seeing significant savings on energy and water usage:
+EDI-Net has been running successfully since 2017, with authorities seeing significant savings on energy and water usage:
 
 > EDI-Net contributed to **saving more than 1,300 m3 of water** - and thus around €6,500! <small>—Alexander Nordhus, Energy Manager, City of Nuremberg, Germany</small>
 

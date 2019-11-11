@@ -40,7 +40,7 @@ nav {
   text-align: center;
   line-height: 2em;
   font-size: 1em;
-  opacity: .96;
+  opacity: .94;
   background: var(--darkColour);
   position: fixed;
   width: 100%;
@@ -196,6 +196,7 @@ a.top {
   font-size: .75em;
   color: var(--paleColour);
   background: var(--darkColour);
+  opacity: .94;
   font-family: Dosis, sans-serif;
 }
 
@@ -261,7 +262,6 @@ input:focus, textarea:focus {
     width: 30%;
   } */
   a.top {
-    line-height: 2.5em;
     font-size: 1em;
   }
 }
