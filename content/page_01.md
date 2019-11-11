@@ -2,7 +2,10 @@
 
 # ![EcoVisum logo](images/ecovisum-logo-transparent.png)
 
-Award-winning software for energy monitoring and public engagement with energy usage
+Award-winning software for energy monitoring and public engagement
+
+![smiley faces showing energy use](images/smiley-faces.png)
+![detailed graph of energy use](images/graph.png)
 
 ## Tools to minimise the costs of energy and water usage
 
