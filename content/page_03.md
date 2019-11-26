@@ -25,37 +25,34 @@
   </figure>
 </div>
 
-<!--
-![Graeme Stuart](images/graeme-stuart-200x200.jpg)
-![Dave Everitt](images/dave-everitt-200x200.jpg)
-![Fania Raczinski](images/fania-raczinski-200x200.jpg)
--->
-
 
 ## Send us a message
 
 Your email will only used to reply, and not be stored.
 
-<!-- <form action="/cgi-bin/formmail.cgi" method="post" id="contact" title="Contact Angie Denman"> -->
-<form action="#" method="post" id="contact" title="Contact EcoVisum" style="margin-bottom: 2em">
+<form action="https://formspree.io/mledeoel" method="post" id="contact" title="Contact EcoVisum" style="margin-bottom: 2em">
   <p>
     <label for="name">Your name:</label>
-    <input type="text" id="name" title="your name" />
+    <input type="text" id="name" name="name" title="your name" />
   </p>
   <p>
     <label for="email">Your email:</label>
-    <input type="email" id="email" title="your email address" />
+    <input type="email" id="email" name="_replyto" title="your email address" />
   </p>
   <p>
     <label for="message">Your message:</label>
     <textarea rows="10" id="message" title="Your message"></textarea>
   </p>
-  <!-- <div class="hptfield">
-    <label>Keep this field blank</label>
-    <input type="text" name="honeypot" id="hpt" />
-  </div> -->
   <p class="buttons">
     <input type="reset"  name="button" value="Reset form" title="clear all text" />
-    <input type="submit" name="button" value="Send message" />
+    <input type="submit" name="button" value="Send" />
   </p>
 </form>
+
+<!--
+<form action="https://formspree.io/mledeoel" method="POST">
+  <input type="text" name="name">
+  <input type="email" name="_replyto">
+  <input type="submit" value="Send">
+</form>
+-->
