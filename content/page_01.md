@@ -1,6 +1,6 @@
 <!-- # EcoVisum -->
 
-# ![EcoVisum logo](images/ecovisum-logo-transparent.png)
+# ![Ecovisum logo](images/ecovisum-logo-transparent.png)
 
 Award-winning software for energy monitoring and public engagement
 

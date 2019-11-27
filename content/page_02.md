@@ -18,11 +18,15 @@ EDI-Net informs building users and energy managers of live usage, from instantly
 
 ### Costs:
 
-- €500 5 buildings +€100 per additional building
-- €1000 10 buildings +€50 per additional building
-- €3000 50 buildings +€20 per additional building
-- €5000 150 buildings +€10 per additional building
-- €8500 500 buildings +€5 per additional building
+- €500: 5 buildings +€100 per additional building
+- €1000: 10 buildings +€50 per additional building
+- €3000: 50 buildings +€20 per additional building
+- €5000: 150 buildings +€10 per additional building
+- €8500: 500 buildings +€5 per additional building
+
+VIsit the [EDI-Net forum](https://discourse.edi-net.eu/) for more information
+
+---
 
 ## Student Switch Off dashboard
 
@@ -30,14 +34,16 @@ EDI-Net informs building users and energy managers of live usage, from instantly
 
 **[switchoff.nus.org.uk](https://switchoff.nus.org.uk)**
 
-The energy dashboard has supported the NUS Student Switch Off campaign since March 2014. See the [case study](#the-nus-energy-dashboard)
+The Energy Dashboard (shown above) has successfully supported the National Union of Students [Switch Off campaign](http://studentswitchoff.org/) since March 2014, and recently won the [Class Digital Innovation Award](https://theclassof2020.org/the-class-awards-2020/) in November 2019 in Berlin, Germany. The award:
 
-We can automatically process digital data from your supplier or metering system. Manual uploads (Excel or CSV) are also enabled.
+> recognizes, highlights and promotes companies and initiatives at the forefront of student living, working and learning.
+
+The Dashboard engages students in energy-saving initiatives by tracking consumption in over 140 student halls and residences across 14 UK and EU universities, enabling them to set up competitions by showing dynamically-updated <em>leaderboards</em> of energy savings for each competitor.
+
+The Dasboard automatically processes digital data from your supplier or metering system. Manual uploads (Excel or CSV) are also enabled.
 
 ### Costs:
 
-- £1200 20 halls @ 5 meters per hall (up to 100 meters)
-- £20 for each additional hall (with up to 5 meters)
-- £10 for each additional meter
-
-Once set up, competitions can be created between student residencies.
+- £1200: 20 halls @ 5 meters per hall (up to 100 meters)
+- £20: each additional hall (with up to 5 meters)
+- £10: each additional meter
