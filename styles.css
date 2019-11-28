@@ -188,16 +188,15 @@ blockquote::before {
 
 a.top {
   position: absolute;
-  bottom: 0;
   display: block;
+  bottom: 0;
   box-sizing: border-box;
   width: 100%;
-  text-align: center;
-  line-height: 2em;
   font-size: .75em;
+  line-height: 2em;
+  text-align: center;
   color: var(--paleColour);
   background: var(--darkColour);
-  opacity: .94;
   font-family: Dosis, sans-serif;
 }
 
@@ -263,6 +262,15 @@ input:focus, textarea:focus {
     width: 30%;
   } */
   a.top {
-    font-size: 1em;
+    bottom: 6px;
+    right: 6px;
+    width: 2em;
+    font-size: 2em;
+    border-radius: 0.8em;
+    right: 6px;
+    width: 2em;
+    border-radius: 0.8em;
+    font-size: 1.25em;
+    opacity: .94;
   }
 }
