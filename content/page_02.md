@@ -40,7 +40,7 @@ The Energy Dashboard (shown above) has successfully supported the National Union
 
 The Dashboard engages students in energy-saving initiatives by tracking consumption in over 140 student halls and residences across 14 UK and EU universities, enabling them to set up competitions by showing dynamically-updated <em>leaderboards</em> of energy savings for each competitor.
 
-The Dasboard automatically processes digital data from your supplier or metering system. Manual uploads (Excel or CSV) are also enabled.
+The Dashboard automatically processes digital data from your supplier or metering system. Manual uploads (Excel or CSV) are also enabled.
 
 ### Costs:
 
