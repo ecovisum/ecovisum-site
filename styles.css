@@ -114,7 +114,7 @@ section:nth-child(odd) {
   min-width: 228px;
 }
 
-p a {
+p a, h2 a, h3 a {
   text-decoration: underline;
 }
 p a:hover {

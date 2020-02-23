@@ -1,6 +1,6 @@
 # EcoVisum software
 
-## EDI-Net energy monitoring
+## EDI-Net energy monitoring ([calculate your requirements](http://edinet.ecovisum.com/#tierPricing))
 
 ![Image of EDI-Net organisations](images/edi-net.png)
 
@@ -16,7 +16,7 @@ EDI-Net has been running successfully since 2017, with authorities seeing <stron
 
 EDI-Net informs building users and energy managers of live usage, from instantly-readable ‘smiley faces’ to detailed graphs for exact monitoring. See the [current EDI-Net partners](https://dashboard.edi-net.eu/p/partners).
 
-### Costs:
+### Costs or [calculate your requirements here](http://edinet.ecovisum.com/#tierPricing):
 
 - €500: 5 buildings +€100 per additional building
 - €1000: 10 buildings +€50 per additional building
