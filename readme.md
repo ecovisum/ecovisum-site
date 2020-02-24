@@ -10,6 +10,7 @@ Test: free hosting etc. from GitHub to Render.com: [ecovisum.onrender.com](https
 - [ ] do mobile menu
 - [ ] make design as a skin
 - [ ] minify .js files
+- [ ] fix overflow scroll (see below)
 - [ ] add Twitter and Discourse email (Graeme backwards/forwards CSS)
 - [ ] add awards (Green Gown, Class 2020)
 - [x] git push to server when ready
@@ -19,3 +20,12 @@ Test: free hosting etc. from GitHub to Render.com: [ecovisum.onrender.com](https
 - [x] make Markdown converter generic
 - [x] rewrite content (this is a straight copy)
 - [x] decide on whether we need a contact form (not yet)
+
+### Overflow scroll resources
+
+- [scroll-bouncing](https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/)
+- [ios-overflow](https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/)
+- [webkkit overflowscrolling](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-overflow-scrolling)
+- [overflowscroll slow](https://stackoverflow.com/questions/33601165/scrolling-slow-on-mobile-ios-when-using-overflowscroll)
+- [scroll-snap](https://developers.google.com/web/updates/2018/07/css-scroll-snap)
+- [safari+mobile+inertia+scroll ](https://books.google.co.uk/books?id=uLVrCgAAQBAJ&pg=PA112&lpg=PA112&dq=safari+mobile+inertia+scroll+responsive+web+design&source=bl&ots=hxP7YRCXYR&sig=ACfU3U1mGAcNnUdhuxS85N778lrTi0KTZA&hl=en&sa=X&ved=2ahUKEwiq1LDqyOTlAhVUT8AKHQWvD_IQ6AEwEHoECAkQAQ#v=onepage&q=safari%20mobile%20inertia%20scroll%20responsive%20web%20design&f=false)
