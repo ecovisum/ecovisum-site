@@ -23,6 +23,8 @@ Test: free hosting etc. from GitHub to Render.com: [ecovisum.onrender.com](https
 
 ### Overflow scroll resources
 
+use this first: leave room for header with `scroll-margin-top` and read [scroll-margin](https://css-tricks.com/almanac/properties/s/scroll-margin/)
+
 - [scroll-bouncing](https://www.smashingmagazine.com/2018/08/scroll-bouncing-websites/)
 - [ios-overflow](https://css-tricks.com/snippets/css/momentum-scrolling-on-ios-overflow-elements/)
 - [webkkit overflowscrolling](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-overflow-scrolling)
