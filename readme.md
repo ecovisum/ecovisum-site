@@ -15,6 +15,8 @@ Test: free hosting etc. from GitHub to Render.com: [ecovisum.onrender.com](https
 
 ## TO DO: code
 
+- [ ] set virtualHosts file and DNS for .eu and .de domains
+- [ ] transfer .de to UK FasHosts account
 - [ ] contain code in an IIFE
 - [ ] do mobile menu
 - [ ] minify .js files
