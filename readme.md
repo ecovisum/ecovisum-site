@@ -4,22 +4,26 @@ A rough content plan and outline for the new [Ecovisum website](https://daveever
 
 Test: free hosting etc. from GitHub to Render.com: [ecovisum.onrender.com](https://ecovisum.onrender.com/).
 
-## TO DO
+## TO DO: content
+
+- [ ] add impressum when ready
+- [ ] add Twitter and Discourse email (Graeme backwards/forwards CSS)
+- [ ] add awards (Green Gown, [Class 2020](https://www.dmu.ac.uk/about-dmu/news/2019/december/dmu-spin-out-company-wins-global-sustainability-award.aspx))
+- [ ] Verify the [EcoVisum domain name on GitHub](https://help.github.com/en/github/setting-up-and-managing-organizations-and-teams/verifying-your-organizations-domain)
+- [x] rewrite content (this is a straight copy)
+- [x] decide on whether we need a contact form (not yet)
+
+## TO DO: code
 
 - [ ] contain code in an IIFE
 - [ ] do mobile menu
-- [ ] make design as a skin
 - [ ] minify .js files
 - [ ] fix overflow scroll (see below)
-- [ ] add Twitter and Discourse email (Graeme backwards/forwards CSS)
-- [ ] add awards (Green Gown, Class 2020)
-- [x] git push to server when ready
-- [x] make 2 repos: Ecovisum, Markdown-GitHub Pages
-- [x] concatenate .js files
 - [x] map through an object storing the markdown file paths and HTML destinations
+- [x] concatenate .js files
+- [x] make 2 repos: Ecovisum, Markdown-GitHub Pages
+- [x] git push to server when ready
 - [x] make Markdown converter generic
-- [x] rewrite content (this is a straight copy)
-- [x] decide on whether we need a contact form (not yet)
 
 ### Overflow scroll resources
 
