@@ -21,6 +21,7 @@ Test: free hosting etc. from GitHub to Render.com: [ecovisum.onrender.com](https
 - [ ] do mobile menu
 - [ ] minify .js files
 - [ ] fix overflow scroll (see below)
+- [x] move this repo to the ecovism GitHub organisation
 - [x] map through an object storing the markdown file paths and HTML destinations
 - [x] concatenate .js files
 - [x] make 2 repos: Ecovisum, Markdown-GitHub Pages
