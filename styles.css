@@ -25,15 +25,51 @@ body {
   overflow: hidden;
   background: var(--darkColour);
 }
-h1, h2, h3, h4, nav{
+
+/* ====== Headings ====== */
+h1, h2, h3, nav {
   font-family: Dosis, sans-serif;
 }
-a {
-  text-decoration: none;
-}
-p a {
+h1, h2, h3 {
+  margin: 0;
   color: var(--darkColour);
 }
+h1 {
+  font-size: 2.5em;
+  padding-top: 1.25em;
+}
+h2, h3 { padding-top: .5em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.25em; }
+
+/* ====== Links ====== */
+a, p a:hover { text-decoration: none; }
+p a { color: var(--darkColour); }
+p a, h2 a, h3 a {
+  text-decoration: underline;
+}
+
+/* ====== Quotations ====== */
+blockquote {
+  position: relative;
+  margin: 1em 1em 1em 20px;
+  padding: .5em 1em;
+  background: var(--neutralPale);
+  border: 2px solid var(--darkColour);
+  border-radius: 6px;
+  color: var(--darkColour);
+}
+blockquote::before {
+  content: "“";
+  font-size: 7em;
+  color: var(--paleHighlight);
+  font-family: times, serif;
+  position: absolute;
+  top: -35px;
+  left: -20px;
+}
+
+/* ====== Main menu ====== */
 nav {
   display: block;
   margin: 0 auto;
@@ -58,16 +94,17 @@ nav a:hover {
   color: var(--palerVery);
 }
 
+/* ====== Page body container ====== */
 main {
-  position: relative;
   /* height cannot be auto or 100% or min-height */
   height: 100vh;
+  position: relative;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  /* background: var(--paleHighlight); */
   background: var(--neutralPale);
 }
 
+/* ====== Page body sections ====== */
 section[id^="page"] {
   min-height: 100vh;
   max-width: 800px;
@@ -78,21 +115,10 @@ section[id^="page"] {
 section img {
   width: 100%;
 }
-h1, h2, h3 {
-  margin: 0;
-  color: var(--darkColour);
-}
-h1 {
-  font-size: 2.5em;
-  padding-top: 1.25em;
-}
-h2, h3 { padding-top: .5em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.25em; }
-
 section:nth-child(odd) {
   background: var(--neutralPale);
 }
+
 #page_01.backgroundImg {
   background: var(--paleColour) url("/images/net.png") no-repeat fixed center;
   background-size: cover;
@@ -114,37 +140,7 @@ section:nth-child(odd) {
   min-width: 228px;
 }
 
-p a, h2 a, h3 a {
-  text-decoration: underline;
-}
-p a:hover {
-  text-decoration: none;
-}
-
-blockquote {
-  position: relative;
-  margin: 1em 1em 1em 20px;
-  padding: .5em 1em;
-  background: var(--neutralPale);
-  border: 2px solid var(--darkColour);
-  border-radius: 6px;
-  color: var(--darkColour);
-}
-blockquote::before {
-  content: "“";
-  font-size: 7em;
-  color: var(--paleHighlight);
-  font-family: times, serif;
-  position: absolute;
-  top: -35px;
-  left: -20px;
-}
-
 /* ====== Research section ====== */
-/* .panels {
-  display: flex;
-  flex-direction: column;
-} */
 .panels.faces {
   display: flex;
   flex-direction: row;
@@ -201,7 +197,6 @@ a.top {
 }
 
 /* ====== Contact form ====== */
-
 form {
   clear: both;
   text-align: right;
@@ -234,9 +229,9 @@ input:focus, textarea:focus {
 .buttons input {
   width: 8em;
 }
-/* ===== /Contact form ====== */
 
 
+/* ===== First breakpoint ====== */
 @media screen and (min-width: 600px) {
   body {
     font-size: 1.25em;
