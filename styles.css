@@ -90,9 +90,6 @@ nav a {
   display: inline-block;
   transition: color .5s;
 }
-nav a:hover {
-  color: var(--palerVery);
-}
 
 /* ====== Page body container ====== */
 main {
@@ -101,7 +98,8 @@ main {
   position: relative;
   overflow-y: scroll;
   scroll-behavior: smooth;
-  background: var(--neutralPale);
+  background: var(--paleColour);
+  /* background: var(--neutralPale); */
 }
 
 /* ====== Page body sections ====== */
@@ -168,6 +166,7 @@ section:nth-child(odd) {
 .panels figcaption strong {
   display: block;
 }
+/* generic 3-pane section */
 /* .panels section {
   box-sizing: border-box;
   width: 98%;
@@ -184,16 +183,17 @@ section:nth-child(odd) {
 
 a.top {
   position: absolute;
+  box-sizing: border-box;
   display: block;
   bottom: 0;
-  box-sizing: border-box;
   width: 100%;
   font-size: .75em;
   line-height: 2em;
   text-align: center;
-  color: var(--paleColour);
+  color: var(--palerVery);
   background: var(--darkColour);
   font-family: Dosis, sans-serif;
+  opacity: .94;
 }
 
 /* ====== Contact form ====== */
@@ -252,20 +252,23 @@ input:focus, textarea:focus {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  /* generic 3-pane section */
   /* .panels section {
     margin: 0.5em;
     width: 30%;
   } */
+  nav a:hover {
+    color: var(--paleHighlight);
+  }
   a.top {
     bottom: 6px;
-    right: 6px;
-    width: 2em;
-    font-size: 2em;
+    right: 12px;
+    width: 2.5em;
     border-radius: 0.8em;
-    right: 6px;
-    width: 2em;
-    border-radius: 0.8em;
-    font-size: 1.25em;
-    opacity: .94;
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  a.top:hover {
+    opacity: 1;
   }
 }
