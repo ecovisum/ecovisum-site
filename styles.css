@@ -99,7 +99,6 @@ main {
   overflow-y: scroll;
   scroll-behavior: smooth;
   background: var(--paleColour);
-  /* background: var(--neutralPale); */
 }
 
 /* ====== Page body sections ====== */
