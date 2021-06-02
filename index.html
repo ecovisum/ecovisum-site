@@ -1,20 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Ecovisum Ltd.</title>
+  <title><t->Ecovisum Ltd. energy-monitoring dashboards</t-></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <link rel="stylesheet" href="styles.css">
+  <!-- <script type="text/javascript" src="js/tdash.js"></script> -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/phamiliarize/tdash@latest/tdash.min.js"></script>
+  <script>
+    let tdash = new TDash("en", { fallback: "default", warn: true })
+    tdash.addLang("de", "js/assets/de.json")
+    tdash.addLang("en", "js/assets/en.json")
+    tdash.init()
+
+    function changeLanguage(event) {
+      document.documentElement.lang = event.target.value;
+    }
+  </script>
 <body>
   
 <nav id="header">
   <a href="#page_01">Ecovisum</a>
-  <a href="#page_02">What</a>
-  <a href="#page_03">Who</a>
+  <a href="#page_02"><t->What</t-></a>
+  <a href="#page_03"><t->Who</t-></a>
+  <div style="float: right;">
+  <select id="lc" onchange="changeLanguage(event)">
+    <option value="en">English</option>
+    <option value="de">Deutsch</option>
+  </select>
+  </div>
 </nav>
 
 <main id="main">
+  <!-- with default text if Markdown fails -->
   <section id="page_01" class="backgroundImg">
     <h2>Ecovisum</h2>
     <p>award-winning (awards)</p>
@@ -40,6 +59,10 @@
 <script src="js/content.js"></script>
 <script src="js/mdconvert.js"></script>
 <script src="js/shrinkheader.js"></script>
+
+<script>
+  document.getElementById('lc').value = document.documentElement.lang;
+</script>
 
 </body>
 </html>

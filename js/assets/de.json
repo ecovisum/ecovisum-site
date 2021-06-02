@@ -1,0 +1,13 @@
+{
+  "title": "Titel",
+  "Award-winning <strong>software for energy monitoring</strong> and <strong>public engagement</strong>": "Preisgekrönte <strong>Software für Energieüberwachung</strong> und <strong>öffentliches Engagement</strong>",
+  "Tools to minimise the costs of energy and water usage": "Instrumente zur Minimierung der Kosten für Energie- und Wasserverbrauch",
+  "Ecovisum Ltd. energy-monitoring dashboards": "Ecovisum Ltd. Energieüberwachungs-Dashboards",
+  "Our data analysis service processes your data to output just the technical information you need, summarised as:": "Unser Datenanalyse-Service verarbeitet Ihre Daten so, dass Sie nur die technischen Informationen ausgeben, die Sie benötigen, zusammengefasst wie folgt:",
+  "What": "Was",
+  "Who": "Wer",
+  "defaultLang": "en",
+  "warn": true,
+  "fallback_key": "de",
+  "fallback_english": "This phrase is in the english files!"
+}
