@@ -5,7 +5,7 @@
 Award-winning **[software for energy monitoring](#page_02)** and **public engagement**
 
 ![smiley faces showing energy use](images/smiley-faces.png)
-![detailed graph of energy use](images/graph.png)
+![graph of detailed energy use](images/graph.png)
 
 ## Tools to minimise the costs of energy and water usage
 
