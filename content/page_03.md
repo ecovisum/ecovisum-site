@@ -41,7 +41,7 @@ Your email will only used to reply, and not be stored.
   </p>
   <p>
     <label for="message">Your message:</label>
-    <textarea rows="10" id="message" title="Your message"></textarea>
+    <textarea rows="10" id="message" name="message" title="Your message"></textarea>
   </p>
   <p class="buttons">
     <input type="reset"  name="button" value="Reset form" title="clear all text" />
