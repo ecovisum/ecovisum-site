@@ -34,11 +34,11 @@ Visit the [EDI-Net forum](https://discourse.edi-net.eu/) for more information an
 
 **[switchoff.nus.org.uk](https://switchoff.nus.org.uk)**
 
-The Energy Dashboard (shown above) has successfully supported the National Union of Students [Switch Off campaign](http://studentswitchoff.org/) since March 2014, and recently won the [Class Digital Innovation Award](https://theclassof2020.org/the-class-awards-2020/) in November 2019 in Berlin, Germany ([see the NUS article](https://saves.nus.org.uk/articles/saves2-energy-dashboard-wins-best-in-class-digital-innovation-award)). The award:
+The Energy Dashboard (shown above) has successfully supported the National Union of Students [Switch Off campaign](http://studentswitchoff.org/) since March 2014, and won the [Class Digital Innovation Award](https://theclassof2020.org/the-class-awards-2020/) in November 2019 in Berlin, Germany ([see the NUS article](https://saves.nus.org.uk/articles/saves2-energy-dashboard-wins-best-in-class-digital-innovation-award)). The award:
 
 > recognizes, highlights and promotes companies and initiatives at the forefront of student living, working and learning.
 
-The Dashboard engages students in energy-saving initiatives by tracking consumption in over 140 student halls and residences across 14 UK and EU universities, enabling them to set up competitions by showing dynamically-updated <em>leaderboards</em> of energy savings for each competitor.
+The Dashboard engages students in energy-saving initiatives and has tracked consumption in over 140 student halls and residences across 14 UK and EU universities since 2015, enabling them to set up competitions with dynamically-updated <em>leaderboards</em> showing energy savings for each competitor, displayed on any device from **mobiles** to large **public screens**.
 
 The Dashboard automatically processes digital data from your supplier or metering system. Manual uploads (Excel or CSV) are also enabled.
 
