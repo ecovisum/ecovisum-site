@@ -47,12 +47,5 @@ Your email will only used to reply, and not be stored.
     <input type="reset"  name="button" value="Reset form" title="clear all text" />
     <input type="submit" name="button" value="Send" />
   </p>
+  <input type="hidden" name="_next" value="https://ecovisum.com/">
 </form>
-
-<!--
-<form action="https://formspree.io/mledeoel" method="POST">
-  <input type="text" name="name">
-  <input type="email" name="_replyto">
-  <input type="submit" value="Send">
-</form>
--->
