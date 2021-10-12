@@ -47,5 +47,5 @@ Your email will only used to reply, and not be stored.
     <input type="reset"  name="button" value="Reset form" title="clear all text" />
     <input type="submit" name="button" value="Send" />
   </p>
-  <input type="hidden" name="_next" value="https://ecovisum.com/">
+  <input type="hidden" name="_next" value="https://ecovisum.com/#page_03">
 </form>
