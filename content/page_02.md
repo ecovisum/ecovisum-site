@@ -44,6 +44,6 @@ The Dashboard automatically processes digital data from your supplier or meterin
 
 ### Costs:
 
-- £1200: 20 halls @ 5 meters per hall (up to 100 meters)
-- £20: each additional hall (with up to 5 meters)
-- £10: each additional meter
+- £1350: 20 halls @ 5 meters per hall (up to 100 meters)
+- £25: each additional hall (with up to 5 meters)
+- £15: each additional meter
