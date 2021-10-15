@@ -4,7 +4,7 @@
 
 ![Image of EDI-Net organisations](images/edi-net.png)
 
-**[edi-net.eu](https://www.edi-net.eu/en/)**
+**[edinet.ecovisum.com](https://edinet.ecovisum.com/)**
 
 EDI-Net has been running successfully since 2017, with authorities seeing <strong>significant savings</strong> on energy and water usage:
 
@@ -14,7 +14,7 @@ EDI-Net has been running successfully since 2017, with authorities seeing <stron
 
 > We decided to use EDI-Net in 1,171 buildings, which has entailed some setup costs. With the tool, however, we were able to demonstrate **significant savings (in excess of 22 MWh)** <small>—Juan Antonio Bas Villalobos, Generalitat de Catalunya, Spain</small>
 
-EDI-Net informs building users and energy managers of live usage, from instantly-readable ‘smiley faces’ to detailed graphs for exact monitoring. See the [current EDI-Net partners](https://dashboard.edi-net.eu/p/partners).
+EDI-Net informs building users and energy managers of live usage, from instantly-readable ‘smiley faces’ to detailed graphs for exact monitoring. See the [EDI-Net partners](https://dashboard.ecovisum.com/i/organisations).
 
 ### Costs or [calculate your requirements here](http://edinet.ecovisum.com/#tierPricing):
 
